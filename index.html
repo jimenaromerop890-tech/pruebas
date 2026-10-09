@@ -1,0 +1,6732 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Magic Desserts | Repostería Artesanal</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- =====================================================
+     LOADER
+===================================================== -->
+
+<div id="loader">
+    <div class="loader-content">
+        <div class="loader-cake">🎂</div>
+        <h2>Magic Desserts</h2>
+        <div class="loader-line"></div>
+        <p>Preparando algo delicioso...</p>
+    </div>
+</div>
+
+
+<!-- =====================================================
+     NOTIFICACIONES
+===================================================== -->
+
+<div id="notifications"></div>
+
+
+<!-- =====================================================
+     TOP BAR
+===================================================== -->
+
+<div class="top-bar">
+
+    <div class="top-left">
+        <span>
+            <i class="fa-solid fa-location-dot"></i>
+            Tiquipaya, Cochabamba, Bolivia
+        </span>
+
+        <span>
+            <i class="fa-solid fa-phone"></i>
+            +591 64891203
+        </span>
+    </div>
+
+    <div class="top-social">
+        <span>Síguenos:</span>
+
+        <a href="#" aria-label="Facebook">
+            <i class="fa-brands fa-facebook-f"></i>
+        </a>
+
+        <a href="#" aria-label="Instagram">
+            <i class="fa-brands fa-instagram"></i>
+        </a>
+
+        <a href="#" aria-label="TikTok">
+            <i class="fa-brands fa-tiktok"></i>
+        </a>
+
+        <a href="https://wa.me/59164891203"
+           target="_blank"
+           aria-label="WhatsApp">
+            <i class="fa-brands fa-whatsapp"></i>
+        </a>
+    </div>
+
+</div>
+
+
+<!-- =====================================================
+     HEADER
+===================================================== -->
+
+<header class="header" id="header">
+
+    <div class="logo-container">
+
+        <div class="logo-icon">
+            <i class="fa-solid fa-cake-candles"></i>
+        </div>
+
+        <div>
+            <div class="logo">
+                Magic
+                <span>Desserts</span>
+            </div>
+
+            <small>Endulzamos tus momentos ✨</small>
+        </div>
+
+    </div>
+
+
+    <nav class="navbar" id="navbar">
+
+        <a href="#inicio" class="nav-link active">Inicio</a>
+        <a href="#catalogo" class="nav-link">Catálogo</a>
+        <a href="#promociones" class="nav-link">Promociones</a>
+        <a href="#personaliza" class="nav-link">Personaliza</a>
+        <a href="#pedido" class="nav-link">Pedidos</a>
+        <a href="#galeria" class="nav-link">Galería</a>
+        <a href="#opiniones" class="nav-link">Opiniones</a>
+        <a href="#contacto" class="nav-link">Contacto</a>
+
+    </nav>
+
+
+    <div class="header-actions">
+
+        <button class="header-btn" id="favoritesBtn">
+            <i class="fa-regular fa-heart"></i>
+            <span class="badge" id="favoritesCount">0</span>
+        </button>
+
+        <button class="header-btn" id="openCart">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <span class="badge" id="cartCount">0</span>
+        </button>
+
+        <button class="menu-btn" id="menuBtn">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+
+    </div>
+
+</header>
+
+
+<!-- =====================================================
+     HERO
+===================================================== -->
+
+<section class="hero" id="inicio">
+
+    <div class="hero-particles">
+        <span>✦</span>
+        <span>♡</span>
+        <span>✧</span>
+        <span>✦</span>
+        <span>♡</span>
+        <span>✧</span>
+    </div>
+
+
+    <div class="hero-content">
+
+        <div class="hero-label">
+            <span></span>
+            REPOSTERÍA ARTESANAL
+            <span></span>
+        </div>
+
+        <h1>
+            Hechos con amor,
+            <strong>pensados para ti ♡</strong>
+        </h1>
+
+        <p>
+            Descubre postres artesanales preparados con ingredientes
+            frescos, creatividad y mucho amor para convertir cada
+            momento en un recuerdo delicioso.
+        </p>
+
+        <div class="hero-buttons">
+
+            <a href="#catalogo" class="btn btn-primary">
+                <i class="fa-solid fa-cookie-bite"></i>
+                Ver catálogo
+            </a>
+
+            <a href="#personaliza" class="btn btn-outline">
+                <i class="fa-solid fa-wand-magic-sparkles"></i>
+                Crear mi pastel
+            </a>
+
+        </div>
+
+
+        <div class="hero-stats">
+
+            <div class="hero-stat">
+                <strong>+20</strong>
+                <span>Postres</span>
+            </div>
+
+            <div class="hero-stat">
+                <strong>100%</strong>
+                <span>Artesanal</span>
+            </div>
+
+            <div class="hero-stat">
+                <strong>♡</strong>
+                <span>Hecho con amor</span>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="hero-image">
+
+        <div class="hero-image-bg"></div>
+
+        <img
+            src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=1000&q=85"
+            alt="Pastel de Magic Desserts"
+        >
+
+        <div class="floating-card card-one">
+            <i class="fa-solid fa-heart"></i>
+            <div>
+                <strong>Delicioso</strong>
+                <span>Preparado para ti</span>
+            </div>
+        </div>
+
+        <div class="floating-card card-two">
+            🍓
+            <div>
+                <strong>Ingredientes</strong>
+                <span>Frescos y de calidad</span>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     BENEFICIOS
+===================================================== -->
+
+<section class="benefits">
+
+    <div class="benefit">
+        <div class="benefit-icon">
+            <i class="fa-solid fa-leaf"></i>
+        </div>
+        <div>
+            <h3>Ingredientes frescos</h3>
+            <p>Seleccionados cuidadosamente.</p>
+        </div>
+    </div>
+
+    <div class="benefit">
+        <div class="benefit-icon">
+            <i class="fa-solid fa-heart"></i>
+        </div>
+        <div>
+            <h3>Hecho con amor</h3>
+            <p>Cada detalle cuenta.</p>
+        </div>
+    </div>
+
+    <div class="benefit">
+        <div class="benefit-icon">
+            <i class="fa-solid fa-truck-fast"></i>
+        </div>
+        <div>
+            <h3>Pedidos fáciles</h3>
+            <p>Compra desde cualquier lugar.</p>
+        </div>
+    </div>
+
+    <div class="benefit">
+        <div class="benefit-icon">
+            <i class="fa-solid fa-wand-magic-sparkles"></i>
+        </div>
+        <div>
+            <h3>Personalización</h3>
+            <p>Crea algo único.</p>
+        </div>
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     CATÁLOGO
+===================================================== -->
+
+<section class="section catalog-section" id="catalogo">
+
+    <div class="section-heading">
+
+        <div>
+            <span class="section-tag">NUESTROS POSTRES</span>
+
+            <h2>
+                Un mundo de
+                <span>dulzura</span>
+            </h2>
+
+            <p>
+                Elige tu favorito y agrega tus deliciosos postres al carrito.
+            </p>
+        </div>
+
+        <div class="catalog-counter">
+            <strong id="productsFound">0</strong>
+            <span>productos</span>
+        </div>
+
+    </div>
+
+
+    <!-- BUSCADOR -->
+
+    <div class="catalog-tools">
+
+        <div class="search-box">
+
+            <i class="fa-solid fa-magnifying-glass"></i>
+
+            <input
+                type="text"
+                id="search"
+                placeholder="Buscar postre..."
+                autocomplete="off"
+            >
+
+            <button id="clearSearch" title="Limpiar búsqueda">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+
+        </div>
+
+
+        <div class="sort-box">
+
+            <i class="fa-solid fa-arrow-down-wide-short"></i>
+
+            <select id="sort">
+
+                <option value="normal">Ordenar por</option>
+                <option value="low">Precio menor</option>
+                <option value="high">Precio mayor</option>
+                <option value="name">Nombre A-Z</option>
+
+            </select>
+
+        </div>
+
+    </div>
+
+
+    <!-- CATEGORÍAS -->
+
+    <div class="categories" id="categories">
+
+        <button class="category active" data-filter="todos">
+            <i class="fa-solid fa-border-all"></i>
+            Todos
+        </button>
+
+        <button class="category" data-filter="pasteles">
+            🎂 Pasteles
+        </button>
+
+        <button class="category" data-filter="cheesecake">
+            🍰 Cheesecakes
+        </button>
+
+        <button class="category" data-filter="cupcakes">
+            🧁 Cupcakes
+        </button>
+
+        <button class="category" data-filter="galletas">
+            🍪 Galletas
+        </button>
+
+        <button class="category" data-filter="vaso">
+            🥤 Postres en vaso
+        </button>
+
+        <button class="category" data-filter="brownies">
+            🍫 Brownies
+        </button>
+
+        <button class="category" data-filter="tortas">
+            🎀 Tortas
+        </button>
+
+    </div>
+
+
+    <!-- PRODUCTOS -->
+
+    <div class="products-grid" id="productsGrid"></div>
+
+
+    <div class="empty-products" id="emptyProducts">
+
+        <div>🍰</div>
+
+        <h3>No encontramos ese postre</h3>
+
+        <p>
+            Prueba con otro nombre o selecciona otra categoría.
+        </p>
+
+        <button class="btn btn-primary" id="resetFilters">
+            Ver todos
+        </button>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     PROMOCIONES
+===================================================== -->
+
+<section class="promo-section" id="promociones">
+
+    <div class="promo-content">
+
+        <span class="promo-tag">
+            ✨ PROMOCIÓN ESPECIAL
+        </span>
+
+        <h2>
+            ¡Endulza más,
+            <span>paga menos!</span>
+        </h2>
+
+        <p>
+            Compra 2 o más productos y utiliza nuestro código
+            especial para obtener un descuento.
+        </p>
+
+        <div class="promo-code">
+            <span>MAGIC20</span>
+
+            <button id="copyPromo">
+                <i class="fa-regular fa-copy"></i>
+                Copiar
+            </button>
+        </div>
+
+        <small>
+            *20% de descuento aplicable a compras elegibles.
+        </small>
+
+    </div>
+
+    <div class="promo-decoration">
+        🎁
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     PERSONALIZADOR
+===================================================== -->
+
+<section class="section customize-section" id="personaliza">
+
+    <div class="section-heading center">
+
+        <span class="section-tag">HAZLO A TU MANERA</span>
+
+        <h2>
+            Crea tu
+            <span>pastel ideal</span> 🎂
+        </h2>
+
+        <p>
+            Combina sabor, tamaño, relleno y mensaje para crear
+            un pastel único.
+        </p>
+
+    </div>
+
+
+    <div class="customizer">
+
+        <div class="custom-preview">
+
+            <div class="cake-preview" id="cakePreview">
+                <div class="cake-top"></div>
+                <div class="cake-middle"></div>
+                <div class="cake-bottom"></div>
+                <div class="cake-candle">🕯️</div>
+            </div>
+
+            <div class="custom-result">
+                <span>Tu creación</span>
+                <strong id="customPrice">Bs. 0</strong>
+            </div>
+
+        </div>
+
+
+        <div class="custom-form">
+
+            <div class="form-title">
+                <i class="fa-solid fa-wand-magic-sparkles"></i>
+
+                <div>
+                    <h3>Personaliza tu pastel</h3>
+                    <p>Elige cada detalle.</p>
+                </div>
+            </div>
+
+
+            <div class="form-grid">
+
+                <div class="form-group">
+
+                    <label for="sabor">
+                        <i class="fa-solid fa-cake-candles"></i>
+                        Sabor
+                    </label>
+
+                    <select id="sabor">
+
+                        <option value="">Selecciona un sabor</option>
+                        <option value="Chocolate" data-price="60">
+                            Chocolate — Bs. 60
+                        </option>
+                        <option value="Vainilla" data-price="55">
+                            Vainilla — Bs. 55
+                        </option>
+                        <option value="Red Velvet" data-price="70">
+                            Red Velvet — Bs. 70
+                        </option>
+                        <option value="Fresa" data-price="65">
+                            Fresa — Bs. 65
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="tamano">
+                        <i class="fa-solid fa-expand"></i>
+                        Tamaño
+                    </label>
+
+                    <select id="tamano">
+
+                        <option value="">Selecciona tamaño</option>
+
+                        <option value="Pequeño" data-price="0">
+                            Pequeño
+                        </option>
+
+                        <option value="Mediano" data-price="20">
+                            Mediano + Bs. 20
+                        </option>
+
+                        <option value="Grande" data-price="40">
+                            Grande + Bs. 40
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="relleno">
+                        <i class="fa-solid fa-layer-group"></i>
+                        Relleno
+                    </label>
+
+                    <select id="relleno">
+
+                        <option value="">Selecciona relleno</option>
+
+                        <option value="Crema" data-price="0">
+                            Crema
+                        </option>
+
+                        <option value="Chocolate" data-price="8">
+                            Chocolate + Bs. 8
+                        </option>
+
+                        <option value="Fresa" data-price="10">
+                            Fresa + Bs. 10
+                        </option>
+
+                        <option value="Manjar" data-price="12">
+                            Manjar + Bs. 12
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="mensaje">
+                        <i class="fa-solid fa-message"></i>
+                        Mensaje
+                    </label>
+
+                    <input
+                        type="text"
+                        id="mensaje"
+                        maxlength="50"
+                        placeholder="Ej: Feliz cumpleaños..."
+                    >
+
+                </div>
+
+            </div>
+
+
+            <div class="custom-summary" id="customSummary">
+
+                <div>
+                    <span>Tu pastel</span>
+                    <strong id="customText">
+                        Completa las opciones
+                    </strong>
+                </div>
+
+                <strong id="customTotal">
+                    Bs. 0
+                </strong>
+
+            </div>
+
+
+            <button class="btn btn-primary full-btn" id="personalizarBtn">
+
+                <i class="fa-solid fa-cart-plus"></i>
+
+                Agregar pastel personalizado
+
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     PEDIDO
+===================================================== -->
+
+<section class="section order-section" id="pedido">
+
+    <div class="section-heading center">
+
+        <span class="section-tag">PEDIDOS</span>
+
+        <h2>
+            Recibe tu pedido
+            <span>donde quieras</span> 📦
+        </h2>
+
+        <p>
+            Completa tus datos y selecciona tu forma de pago.
+        </p>
+
+    </div>
+
+
+    <div class="order-container">
+
+        <!-- PASOS -->
+
+        <div class="order-steps">
+
+            <div class="order-step active">
+                <span>1</span>
+                <div>
+                    <strong>Productos</strong>
+                    <small>Selecciona</small>
+                </div>
+            </div>
+
+            <div class="order-line"></div>
+
+            <div class="order-step">
+                <span>2</span>
+                <div>
+                    <strong>Datos</strong>
+                    <small>Entrega</small>
+                </div>
+            </div>
+
+            <div class="order-line"></div>
+
+            <div class="order-step">
+                <span>3</span>
+                <div>
+                    <strong>Pago</strong>
+                    <small>Método</small>
+                </div>
+            </div>
+
+            <div class="order-line"></div>
+
+            <div class="order-step">
+                <span>4</span>
+                <div>
+                    <strong>Confirmar</strong>
+                    <small>WhatsApp</small>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="order-form">
+
+            <div class="order-form-title">
+
+                <h3>
+                    <i class="fa-solid fa-location-dot"></i>
+                    Datos de entrega
+                </h3>
+
+                <p>
+                    Necesitamos estos datos para preparar tu pedido.
+                </p>
+
+            </div>
+
+
+            <div class="form-grid">
+
+                <div class="form-group">
+
+                    <label for="cliente">Nombre completo</label>
+
+                    <input
+                        type="text"
+                        id="cliente"
+                        placeholder="Tu nombre"
+                    >
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="telefono">Teléfono</label>
+
+                    <input
+                        type="tel"
+                        id="telefono"
+                        placeholder="Ej: 70707070"
+                    >
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="departamento">Departamento</label>
+
+                    <select id="departamento">
+
+                        <option value="">Selecciona</option>
+                        <option value="Cochabamba">Cochabamba</option>
+                        <option value="La Paz">La Paz</option>
+                        <option value="Santa Cruz">Santa Cruz</option>
+                        <option value="Oruro">Oruro</option>
+                        <option value="Potosí">Potosí</option>
+                        <option value="Chuquisaca">Chuquisaca</option>
+                        <option value="Tarija">Tarija</option>
+                        <option value="Beni">Beni</option>
+                        <option value="Pando">Pando</option>
+
+                    </select>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="municipio">Municipio</label>
+
+                    <select id="municipio">
+
+                        <option value="">Selecciona primero departamento</option>
+
+                    </select>
+
+                </div>
+
+
+                <div class="form-group full">
+
+                    <label for="direccion">
+                        Dirección
+                    </label>
+
+                    <input
+                        type="text"
+                        id="direccion"
+                        placeholder="Calle, avenida, número..."
+                    >
+
+                </div>
+
+
+                <div class="form-group full">
+
+                    <label for="referencia">
+                        Referencia
+                    </label>
+
+                    <input
+                        type="text"
+                        id="referencia"
+                        placeholder="Ej: Casa con puerta blanca..."
+                    >
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="fecha">
+                        Fecha de entrega
+                    </label>
+
+                    <input
+                        type="date"
+                        id="fecha"
+                    >
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="hora">
+                        Hora aproximada
+                    </label>
+
+                    <select id="hora">
+
+                        <option value="">Selecciona</option>
+                        <option>09:00 - 11:00</option>
+                        <option>11:00 - 13:00</option>
+                        <option>14:00 - 16:00</option>
+                        <option>16:00 - 18:00</option>
+                        <option>18:00 - 20:00</option>
+
+                    </select>
+
+                </div>
+
+            </div>
+
+
+            <!-- MÉTODOS DE PAGO -->
+
+            <div class="payment-section">
+
+                <h3>
+                    <i class="fa-solid fa-credit-card"></i>
+                    Método de pago
+                </h3>
+
+                <div class="payment-options">
+
+                    <label class="payment-card">
+
+                        <input
+                            type="radio"
+                            name="payment"
+                            value="Efectivo"
+                        >
+
+                        <span>
+                            <i class="fa-solid fa-money-bill-wave"></i>
+                            <strong>Efectivo</strong>
+                            <small>Pago al recibir</small>
+                        </span>
+
+                    </label>
+
+
+                    <label class="payment-card">
+
+                        <input
+                            type="radio"
+                            name="payment"
+                            value="QR"
+                        >
+
+                        <span>
+                            <i class="fa-solid fa-qrcode"></i>
+                            <strong>QR</strong>
+                            <small>Pago por QR</small>
+                        </span>
+
+                    </label>
+
+
+                    <label class="payment-card">
+
+                        <input
+                            type="radio"
+                            name="payment"
+                            value="Transferencia"
+                        >
+
+                        <span>
+                            <i class="fa-solid fa-building-columns"></i>
+                            <strong>Transferencia</strong>
+                            <small>Transferencia bancaria</small>
+                        </span>
+
+                    </label>
+
+
+                    <label class="payment-card">
+
+                        <input
+                            type="radio"
+                            name="payment"
+                            value="Tarjeta"
+                        >
+
+                        <span>
+                            <i class="fa-solid fa-credit-card"></i>
+                            <strong>Tarjeta</strong>
+                            <small>Pago con tarjeta</small>
+                        </span>
+
+                    </label>
+
+                </div>
+
+            </div>
+
+
+            <div class="order-final">
+
+                <div>
+
+                    <span>Total del pedido</span>
+
+                    <strong id="orderTotal">
+                        Bs. 0
+                    </strong>
+
+                </div>
+
+                <button
+                    class="btn btn-whatsapp"
+                    id="pedidoBtn"
+                >
+                    <i class="fa-brands fa-whatsapp"></i>
+                    Confirmar pedido por WhatsApp
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     GALERÍA
+===================================================== -->
+
+<section class="section gallery-section" id="galeria">
+
+    <div class="section-heading center">
+
+        <span class="section-tag">NUESTRA GALERÍA</span>
+
+        <h2>
+            Un poquito de
+            <span>magia</span> ✨
+        </h2>
+
+        <p>
+            Mira algunas de nuestras creaciones.
+        </p>
+
+    </div>
+
+
+    <div class="gallery-grid">
+
+        <div class="gallery-item large">
+            <img
+                src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=900&q=80"
+                alt="Pastel"
+            >
+            <div class="gallery-overlay">
+                <span>Pasteles</span>
+                <button class="gallery-open">
+                    <i class="fa-solid fa-expand"></i>
+                </button>
+            </div>
+        </div>
+
+        <div class="gallery-item">
+            <img
+                src="https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=700&q=80"
+                alt="Donas"
+            >
+            <div class="gallery-overlay">
+                <span>Dulces</span>
+                <button class="gallery-open">
+                    <i class="fa-solid fa-expand"></i>
+                </button>
+            </div>
+        </div>
+
+        <div class="gallery-item">
+            <img
+                src="https://images.unsplash.com/photo-1486427944299-d1955d23e34d?auto=format&fit=crop&w=700&q=80"
+                alt="Cupcakes"
+            >
+            <div class="gallery-overlay">
+                <span>Cupcakes</span>
+                <button class="gallery-open">
+                    <i class="fa-solid fa-expand"></i>
+                </button>
+            </div>
+        </div>
+
+        <div class="gallery-item">
+            <img
+                src="https://images.unsplash.com/photo-1571115177098-24ec42ed204d?auto=format&fit=crop&w=700&q=80"
+                alt="Torta"
+            >
+            <div class="gallery-overlay">
+                <span>Tortas</span>
+                <button class="gallery-open">
+                    <i class="fa-solid fa-expand"></i>
+                </button>
+            </div>
+        </div>
+
+        <div class="gallery-item">
+            <img
+                src="https://images.unsplash.com/photo-1558961363-fa8fdf82db35?auto=format&fit=crop&w=700&q=80"
+                alt="Galletas"
+            >
+            <div class="gallery-overlay">
+                <span>Galletas</span>
+                <button class="gallery-open">
+                    <i class="fa-solid fa-expand"></i>
+                </button>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     OPINIONES
+===================================================== -->
+
+<section class="section reviews-section" id="opiniones">
+
+    <div class="section-heading center">
+
+        <span class="section-tag">OPINIONES</span>
+
+        <h2>
+            Lo que dicen nuestros
+            <span>clientes</span> ⭐
+        </h2>
+
+    </div>
+
+
+    <div class="reviews-grid" id="reviewsGrid">
+
+        <article class="review-card">
+
+            <div class="review-stars">
+                ★★★★★
+            </div>
+
+            <p>
+                “El pastel estuvo delicioso y quedó exactamente
+                como lo pedí. ¡Me encantó!”
+            </p>
+
+            <div class="review-user">
+                <div class="review-avatar">A</div>
+
+                <div>
+                    <strong>Andrea</strong>
+                    <span>Cliente</span>
+                </div>
+            </div>
+
+        </article>
+
+
+        <article class="review-card">
+
+            <div class="review-stars">
+                ★★★★★
+            </div>
+
+            <p>
+                “Los cupcakes estaban hermosos y llegaron en
+                perfecto estado. Muy recomendable.”
+            </p>
+
+            <div class="review-user">
+                <div class="review-avatar">M</div>
+
+                <div>
+                    <strong>María</strong>
+                    <span>Cliente</span>
+                </div>
+            </div>
+
+        </article>
+
+
+        <article class="review-card">
+
+            <div class="review-stars">
+                ★★★★★
+            </div>
+
+            <p>
+                “Me gustó mucho poder personalizar mi pastel.
+                La atención fue excelente.”
+            </p>
+
+            <div class="review-user">
+                <div class="review-avatar">C</div>
+
+                <div>
+                    <strong>Carla</strong>
+                    <span>Cliente</span>
+                </div>
+            </div>
+
+        </article>
+
+    </div>
+
+
+    <div class="review-form-container">
+
+        <h3>Cuéntanos tu experiencia 💗</h3>
+
+        <div class="review-form">
+
+            <input
+                type="text"
+                id="reviewName"
+                placeholder="Tu nombre"
+            >
+
+            <select id="reviewStars">
+
+                <option value="5">★★★★★</option>
+                <option value="4">★★★★☆</option>
+                <option value="3">★★★☆☆</option>
+                <option value="2">★★☆☆☆</option>
+                <option value="1">★☆☆☆☆</option>
+
+            </select>
+
+            <textarea
+                id="reviewText"
+                placeholder="Escribe tu opinión..."
+            ></textarea>
+
+            <button class="btn btn-primary" id="addReview">
+                Publicar opinión
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     CONTACTO
+===================================================== -->
+
+<section class="contact-section" id="contacto">
+
+    <div class="contact-content">
+
+        <span class="section-tag">CONTÁCTANOS</span>
+
+        <h2>
+            ¿Tienes alguna
+            <span>pregunta?</span>
+        </h2>
+
+        <p>
+            Escríbenos directamente y estaremos felices de ayudarte.
+        </p>
+
+        <div class="contact-buttons">
+
+            <a
+                href="https://wa.me/59164891203"
+                target="_blank"
+                class="contact-btn whatsapp"
+            >
+                <i class="fa-brands fa-whatsapp"></i>
+
+                <div>
+                    <strong>WhatsApp</strong>
+                    <span>Escríbenos ahora</span>
+                </div>
+
+            </a>
+
+            <a
+                href="tel:+59164891203"
+                class="contact-btn phone"
+            >
+                <i class="fa-solid fa-phone"></i>
+
+                <div>
+                    <strong>Llámanos</strong>
+                    <span>+591 64891203</span>
+                </div>
+
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="contact-decoration">
+        🧁
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     FOOTER
+===================================================== -->
+
+<footer class="footer">
+
+    <div class="footer-main">
+
+        <div class="footer-brand">
+
+            <div class="logo-container">
+
+                <div class="logo-icon">
+                    <i class="fa-solid fa-cake-candles"></i>
+                </div>
+
+                <div>
+                    <div class="logo">
+                        Magic
+                        <span>Desserts</span>
+                    </div>
+
+                    <small>Endulzamos tus momentos ✨</small>
+                </div>
+
+            </div>
+
+            <p>
+                Repostería artesanal creada con amor para
+                hacer tus momentos más dulces.
+            </p>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h3>Explora</h3>
+
+            <a href="#inicio">Inicio</a>
+            <a href="#catalogo">Catálogo</a>
+            <a href="#personaliza">Personaliza</a>
+            <a href="#galeria">Galería</a>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h3>Ayuda</h3>
+
+            <a href="#pedido">Pedidos</a>
+            <a href="#promociones">Promociones</a>
+            <a href="#opiniones">Opiniones</a>
+            <a href="#contacto">Contacto</a>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h3>Encuéntranos</h3>
+
+            <p>
+                <i class="fa-solid fa-location-dot"></i>
+                Tiquipaya, Cochabamba
+            </p>
+
+            <p>
+                <i class="fa-brands fa-whatsapp"></i>
+                +591 64891203
+            </p>
+
+            <div class="footer-social">
+
+                <a href="#">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fa-brands fa-tiktok"></i>
+                </a>
+
+                <a href="https://wa.me/59164891203"
+                   target="_blank">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+        <p>
+            © 2026 Magic Desserts. Todos los derechos reservados.
+        </p>
+
+        <p>
+            Hecho con 💗 y mucha magia.
+        </p>
+
+    </div>
+
+</footer>
+
+
+<!-- =====================================================
+     BOTONES FLOTANTES
+===================================================== -->
+
+<a
+    href="https://wa.me/59164891203"
+    target="_blank"
+    class="floating-whatsapp"
+    title="Escribir por WhatsApp"
+>
+    <i class="fa-brands fa-whatsapp"></i>
+    <span>¿Necesitas ayuda?</span>
+</a>
+
+
+<button
+    id="backTop"
+    class="back-top"
+    title="Volver arriba"
+>
+    <i class="fa-solid fa-arrow-up"></i>
+</button>
+
+
+<!-- =====================================================
+     MODAL DEL CARRITO
+===================================================== -->
+
+<div class="modal" id="cartModal">
+
+    <div class="modal-overlay"></div>
+
+    <div class="cart-modal">
+
+        <div class="modal-header">
+
+            <div>
+                <span class="section-tag">TU COMPRA</span>
+                <h2>Mi carrito 🛒</h2>
+            </div>
+
+            <button class="modal-close" data-close="cartModal">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+
+        </div>
+
+
+        <div class="cart-items" id="cartItems"></div>
+
+
+        <div class="cart-empty" id="cartEmpty">
+
+            <div>🛒</div>
+
+            <h3>Tu carrito está vacío</h3>
+
+            <p>
+                Agrega algunos postres deliciosos.
+            </p>
+
+            <button
+                class="btn btn-primary"
+                data-close="cartModal"
+                onclick="document.querySelector('#catalogo').scrollIntoView({behavior:'smooth'})"
+            >
+                Explorar catálogo
+            </button>
+
+        </div>
+
+
+        <div class="cart-footer" id="cartFooter">
+
+            <div class="coupon-box">
+
+                <input
+                    type="text"
+                    id="couponInput"
+                    placeholder="Código promocional"
+                >
+
+                <button id="applyCoupon">
+                    Aplicar
+                </button>
+
+            </div>
+
+
+            <div class="cart-summary">
+
+                <div>
+                    <span>Subtotal</span>
+                    <strong id="cartSubtotal">Bs. 0</strong>
+                </div>
+
+                <div>
+                    <span>Descuento</span>
+                    <strong id="cartDiscount">Bs. 0</strong>
+                </div>
+
+                <div class="cart-total">
+                    <span>Total</span>
+                    <strong id="cartTotal">Bs. 0</strong>
+                </div>
+
+            </div>
+
+
+            <button class="btn btn-primary full-btn" id="checkoutBtn">
+
+                <i class="fa-solid fa-arrow-right"></i>
+
+                Continuar pedido
+
+            </button>
+
+
+            <button class="clear-cart" id="clearCart">
+                <i class="fa-solid fa-trash"></i>
+                Vaciar carrito
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<!-- =====================================================
+     MODAL PRODUCTO
+===================================================== -->
+
+<div class="modal" id="productModal">
+
+    <div class="modal-overlay"></div>
+
+    <div class="product-modal">
+
+        <button
+            class="modal-close product-modal-close"
+            data-close="productModal"
+        >
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+
+        <div id="productModalContent"></div>
+
+    </div>
+
+</div>
+
+
+<!-- =====================================================
+     MODAL GALERÍA
+===================================================== -->
+
+<div class="gallery-modal" id="galleryModal">
+
+    <button
+        class="gallery-modal-close"
+        id="galleryModalClose"
+    >
+        <i class="fa-solid fa-xmark"></i>
+    </button>
+
+    <img id="galleryModalImage" src="" alt="Imagen ampliada">
+
+</div>
+
+
+<!-- =====================================================
+     FAVORITOS
+===================================================== -->
+
+<div class="modal" id="favoritesModal">
+
+    <div class="modal-overlay"></div>
+
+    <div class="cart-modal">
+
+        <div class="modal-header">
+
+            <div>
+                <span class="section-tag">TUS FAVORITOS</span>
+                <h2>Mis favoritos ❤️</h2>
+            </div>
+
+            <button class="modal-close" data-close="favoritesModal">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+
+        </div>
+
+        <div id="favoritesItems"></div>
+
+    </div>
+
+</div>
+
+
+<!-- =====================================================
+     SCRIPT
+===================================================== -->
+
+<script src="script.js"></script>
+
+</body>
+</html>
+<style>
+    /* =====================================================
+   MAGIC DESSERTS
+   ESTILOS PRINCIPALES
+===================================================== */
+
+:root {
+    --pink: #e96a9b;
+    --pink-dark: #d94d83;
+    --pink-light: #ffe8f1;
+    --pink-soft: #fff4f8;
+
+    --purple: #9b6be8;
+    --cream: #fffaf7;
+
+    --dark: #302530;
+    --gray: #756d73;
+    --white: #ffffff;
+
+    --shadow: 0 15px 45px rgba(70, 35, 55, .10);
+    --shadow-hover: 0 22px 55px rgba(70, 35, 55, .18);
+
+    --radius: 22px;
+    --transition: .3s ease;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background: var(--cream);
+    color: var(--dark);
+    overflow-x: hidden;
+}
+
+button,
+input,
+select,
+textarea {
+    font-family: inherit;
+}
+
+button,
+a {
+    -webkit-tap-highlight-color: transparent;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+
+/* =====================================================
+   LOADER
+===================================================== */
+
+#loader {
+    position: fixed;
+    inset: 0;
+    z-index: 99999;
+    background: var(--cream);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: opacity .6s, visibility .6s;
+}
+
+#loader.hidden {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.loader-content {
+    text-align: center;
+}
+
+.loader-cake {
+    font-size: 70px;
+    animation: bounce 1s infinite;
+}
+
+.loader-content h2 {
+    margin-top: 10px;
+    font-family: "Pacifico", cursive;
+    color: var(--pink);
+}
+
+.loader-line {
+    width: 180px;
+    height: 4px;
+    margin: 18px auto;
+    border-radius: 20px;
+    background: linear-gradient(90deg, var(--pink), var(--purple));
+    animation: loading 1.3s infinite;
+}
+
+.loader-content p {
+    color: var(--gray);
+    font-size: 13px;
+}
+
+
+/* =====================================================
+   ANIMACIONES
+===================================================== */
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0) rotate(-4deg);
+    }
+
+    50% {
+        transform: translateY(-15px) rotate(4deg);
+    }
+}
+
+@keyframes loading {
+    0% {
+        transform: scaleX(.3);
+    }
+
+    50% {
+        transform: scaleX(1);
+    }
+
+    100% {
+        transform: scaleX(.3);
+    }
+}
+
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-12px);
+    }
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.08);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+/* =====================================================
+   TOP BAR
+===================================================== */
+
+.top-bar {
+    min-height: 38px;
+    padding: 8px 6%;
+
+    background: #302530;
+    color: white;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-size: 12px;
+}
+
+.top-left {
+    display: flex;
+    gap: 25px;
+}
+
+.top-left span,
+.top-social {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.top-left i {
+    color: #ff8eb8;
+}
+
+.top-social a {
+    width: 24px;
+    height: 24px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 50%;
+
+    transition: var(--transition);
+}
+
+.top-social a:hover {
+    background: var(--pink);
+    transform: translateY(-2px);
+}
+
+
+/* =====================================================
+   HEADER
+===================================================== */
+
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+
+    min-height: 82px;
+    padding: 12px 5%;
+
+    background: rgba(255, 250, 247, .95);
+    backdrop-filter: blur(18px);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    border-bottom: 1px solid rgba(0, 0, 0, .04);
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-icon {
+    width: 48px;
+    height: 48px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 16px;
+
+    background: linear-gradient(
+        135deg,
+        var(--pink),
+        var(--purple)
+    );
+
+    color: white;
+    font-size: 22px;
+
+    box-shadow: 0 8px 25px rgba(233, 106, 155, .3);
+}
+
+.logo {
+    font-family: "Pacifico", cursive;
+    font-size: 24px;
+    line-height: 20px;
+    color: var(--dark);
+}
+
+.logo span {
+    color: var(--pink);
+}
+
+.logo-container small {
+    color: var(--gray);
+    font-size: 8px;
+    letter-spacing: .8px;
+}
+
+.navbar {
+    display: flex;
+    gap: 22px;
+}
+
+.nav-link {
+    position: relative;
+    color: var(--gray);
+    font-size: 13px;
+    font-weight: 500;
+
+    transition: var(--transition);
+}
+
+.nav-link::after {
+    content: "";
+    position: absolute;
+
+    width: 0;
+    height: 2px;
+
+    bottom: -8px;
+    left: 50%;
+
+    background: var(--pink);
+
+    transition: var(--transition);
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: var(--pink);
+}
+
+.nav-link:hover::after,
+.nav-link.active::after {
+    width: 100%;
+    left: 0;
+}
+
+.header-actions {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.header-btn,
+.menu-btn {
+    position: relative;
+
+    width: 43px;
+    height: 43px;
+
+    border: none;
+    border-radius: 13px;
+
+    background: white;
+    color: var(--dark);
+
+    cursor: pointer;
+
+    box-shadow: 0 6px 20px rgba(0,0,0,.06);
+
+    transition: var(--transition);
+}
+
+.header-btn:hover,
+.menu-btn:hover {
+    color: var(--pink);
+    transform: translateY(-3px);
+}
+
+.badge {
+    position: absolute;
+
+    right: -5px;
+    top: -5px;
+
+    min-width: 19px;
+    height: 19px;
+
+    padding: 0 4px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: var(--pink);
+    color: white;
+
+    border-radius: 50%;
+
+    font-size: 10px;
+    font-weight: 700;
+
+    border: 2px solid var(--cream);
+}
+
+.menu-btn {
+    display: none;
+}
+
+
+/* =====================================================
+   HERO
+===================================================== */
+
+.hero {
+    min-height: 700px;
+    padding: 80px 8%;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 50px;
+
+    position: relative;
+    overflow: hidden;
+
+    background:
+        radial-gradient(
+            circle at 10% 20%,
+            #ffe3ef 0,
+            transparent 35%
+        ),
+        radial-gradient(
+            circle at 90% 80%,
+            #eee4ff 0,
+            transparent 35%
+        );
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+    animation: fadeUp .9s ease;
+}
+
+.hero-label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    color: var(--pink);
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+.hero-label span {
+    width: 25px;
+    height: 2px;
+    background: var(--pink);
+}
+
+.hero h1 {
+    margin-top: 20px;
+
+    font-size: clamp(42px, 5vw, 72px);
+    line-height: 1.05;
+    letter-spacing: -2px;
+}
+
+.hero h1 strong {
+    display: block;
+    color: var(--pink);
+}
+
+.hero-content > p {
+    max-width: 600px;
+    margin: 25px 0;
+
+    color: var(--gray);
+    font-size: 15px;
+    line-height: 1.9;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 13px;
+    flex-wrap: wrap;
+}
+
+.btn {
+    border: none;
+    cursor: pointer;
+
+    padding: 14px 22px;
+    border-radius: 13px;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 9px;
+
+    font-size: 13px;
+    font-weight: 600;
+
+    transition: var(--transition);
+}
+
+.btn-primary {
+    color: white;
+
+    background: linear-gradient(
+        135deg,
+        var(--pink),
+        var(--pink-dark)
+    );
+
+    box-shadow: 0 10px 25px rgba(233,106,155,.25);
+}
+
+.btn-primary:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 16px 35px rgba(233,106,155,.35);
+}
+
+.btn-outline {
+    color: var(--pink);
+    background: white;
+    border: 1px solid #f4c1d4;
+}
+
+.btn-outline:hover {
+    background: var(--pink-soft);
+    transform: translateY(-4px);
+}
+
+.hero-stats {
+    display: flex;
+    gap: 35px;
+    margin-top: 45px;
+}
+
+.hero-stat {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-stat strong {
+    font-size: 24px;
+    color: var(--pink);
+}
+
+.hero-stat span {
+    font-size: 11px;
+    color: var(--gray);
+}
+
+.hero-image {
+    position: relative;
+    min-height: 480px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-image-bg {
+    position: absolute;
+
+    width: 430px;
+    height: 430px;
+
+    border-radius: 50%;
+
+    background: linear-gradient(
+        135deg,
+        #ffdce9,
+        #e7dcff
+    );
+}
+
+.hero-image img {
+    position: relative;
+    z-index: 1;
+
+    width: 440px;
+    height: 440px;
+
+    object-fit: cover;
+
+    border-radius: 50%;
+
+    border: 12px solid rgba(255,255,255,.8);
+
+    box-shadow: var(--shadow-hover);
+
+    animation: float 5s ease-in-out infinite;
+}
+
+.floating-card {
+    position: absolute;
+    z-index: 5;
+
+    padding: 14px;
+
+    background: rgba(255,255,255,.94);
+    backdrop-filter: blur(10px);
+
+    border-radius: 16px;
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    box-shadow: var(--shadow);
+
+    font-size: 12px;
+}
+
+.floating-card i {
+    color: var(--pink);
+    font-size: 20px;
+}
+
+.floating-card strong,
+.floating-card span {
+    display: block;
+}
+
+.floating-card span {
+    color: var(--gray);
+    font-size: 9px;
+    margin-top: 3px;
+}
+
+.card-one {
+    top: 20%;
+    left: 0;
+}
+
+.card-two {
+    bottom: 12%;
+    right: 0;
+}
+
+.hero-particles span {
+    position: absolute;
+    color: var(--pink);
+    opacity: .35;
+    font-size: 25px;
+    animation: float 4s infinite;
+}
+
+.hero-particles span:nth-child(1) {
+    left: 10%;
+    top: 20%;
+}
+
+.hero-particles span:nth-child(2) {
+    left: 45%;
+    top: 10%;
+}
+
+.hero-particles span:nth-child(3) {
+    left: 55%;
+    bottom: 10%;
+}
+
+.hero-particles span:nth-child(4) {
+    right: 12%;
+    top: 25%;
+}
+
+.hero-particles span:nth-child(5) {
+    right: 40%;
+    top: 70%;
+}
+
+.hero-particles span:nth-child(6) {
+    left: 5%;
+    bottom: 15%;
+}
+
+
+/* =====================================================
+   BENEFITS
+===================================================== */
+
+.benefits {
+    padding: 35px 8%;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+
+    background: white;
+
+    box-shadow: 0 8px 35px rgba(0,0,0,.04);
+}
+
+.benefit {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.benefit-icon {
+    width: 50px;
+    height: 50px;
+
+    flex-shrink: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 15px;
+
+    color: var(--pink);
+    background: var(--pink-soft);
+}
+
+.benefit h3 {
+    font-size: 13px;
+}
+
+.benefit p {
+    margin-top: 3px;
+    color: var(--gray);
+    font-size: 10px;
+}
+
+
+/* =====================================================
+   SECCIONES
+===================================================== */
+
+.section {
+    padding: 100px 7%;
+}
+
+.section-heading {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+
+    margin-bottom: 40px;
+}
+
+.section-heading.center {
+    display: block;
+    text-align: center;
+}
+
+.section-tag {
+    display: inline-block;
+
+    color: var(--pink);
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+.section-heading h2 {
+    margin-top: 10px;
+
+    font-size: clamp(30px, 4vw, 45px);
+    line-height: 1.1;
+}
+
+.section-heading h2 span {
+    color: var(--pink);
+}
+
+.section-heading p {
+    margin-top: 12px;
+    color: var(--gray);
+    font-size: 13px;
+}
+
+.catalog-counter {
+    text-align: right;
+}
+
+.catalog-counter strong {
+    display: block;
+    color: var(--pink);
+    font-size: 30px;
+}
+
+.catalog-counter span {
+    color: var(--gray);
+    font-size: 11px;
+}
+
+
+/* =====================================================
+   CATÁLOGO
+===================================================== */
+
+.catalog-section {
+    background: var(--cream);
+}
+
+.catalog-tools {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.search-box,
+.sort-box {
+    min-height: 52px;
+
+    display: flex;
+    align-items: center;
+
+    background: white;
+
+    border: 1px solid #f2dce5;
+    border-radius: 14px;
+
+    box-shadow: 0 5px 20px rgba(0,0,0,.03);
+}
+
+.search-box {
+    flex: 1;
+    padding-left: 17px;
+}
+
+.search-box > i {
+    color: var(--pink);
+}
+
+.search-box input {
+    flex: 1;
+
+    padding: 0 12px;
+
+    border: none;
+    outline: none;
+
+    background: transparent;
+
+    color: var(--dark);
+}
+
+.search-box button {
+    width: 45px;
+    height: 45px;
+
+    border: none;
+    background: transparent;
+
+    color: #aaa;
+
+    cursor: pointer;
+}
+
+.sort-box {
+    padding: 0 14px;
+    gap: 8px;
+}
+
+.sort-box i {
+    color: var(--pink);
+}
+
+.sort-box select {
+    border: none;
+    outline: none;
+    background: transparent;
+    color: var(--gray);
+    cursor: pointer;
+}
+
+.categories {
+    display: flex;
+    gap: 9px;
+
+    margin-bottom: 35px;
+
+    overflow-x: auto;
+    padding-bottom: 8px;
+}
+
+.category {
+    white-space: nowrap;
+
+    border: 1px solid #f1dce5;
+
+    background: white;
+
+    color: var(--gray);
+
+    padding: 10px 16px;
+
+    border-radius: 30px;
+
+    cursor: pointer;
+
+    font-size: 11px;
+    font-weight: 600;
+
+    transition: var(--transition);
+}
+
+.category:hover,
+.category.active {
+    background: var(--pink);
+    color: white;
+    border-color: var(--pink);
+
+    transform: translateY(-2px);
+}
+
+
+/* =====================================================
+   PRODUCTOS
+===================================================== */
+
+.products-grid {
+    display: grid;
+
+    grid-template-columns:
+        repeat(4, minmax(0, 1fr));
+
+    gap: 22px;
+}
+
+.product-card {
+    position: relative;
+
+    overflow: hidden;
+
+    background: white;
+
+    border-radius: var(--radius);
+
+    box-shadow: 0 7px 25px rgba(70,35,55,.07);
+
+    transition: var(--transition);
+}
+
+.product-card:hover {
+    transform: translateY(-9px);
+    box-shadow: var(--shadow-hover);
+}
+
+.product-image {
+    position: relative;
+    height: 235px;
+    overflow: hidden;
+}
+
+.product-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+    transition: .6s ease;
+}
+
+.product-card:hover .product-image img {
+    transform: scale(1.08);
+}
+
+.product-label {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+
+    padding: 6px 9px;
+
+    border-radius: 8px;
+
+    color: white;
+    background: var(--pink);
+
+    font-size: 9px;
+    font-weight: 700;
+}
+
+.favorite-btn {
+    position: absolute;
+
+    top: 12px;
+    right: 12px;
+
+    width: 37px;
+    height: 37px;
+
+    border: none;
+    border-radius: 50%;
+
+    background: rgba(255,255,255,.92);
+
+    color: #aaa;
+
+    cursor: pointer;
+
+    transition: var(--transition);
+}
+
+.favorite-btn:hover,
+.favorite-btn.active {
+    color: var(--pink);
+    transform: scale(1.1);
+}
+
+.product-info {
+    padding: 18px;
+}
+
+.product-category {
+    color: var(--pink);
+    font-size: 9px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+.product-info h3 {
+    margin: 6px 0;
+
+    font-size: 16px;
+}
+
+.product-info p {
+    min-height: 38px;
+
+    color: var(--gray);
+
+    font-size: 10px;
+    line-height: 1.7;
+}
+
+.product-bottom {
+    margin-top: 15px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.product-price {
+    color: var(--pink);
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.product-actions {
+    display: flex;
+    gap: 5px;
+}
+
+.product-actions button {
+    width: 38px;
+    height: 38px;
+
+    border: none;
+    border-radius: 11px;
+
+    cursor: pointer;
+
+    transition: var(--transition);
+}
+
+.view-product {
+    background: #f8f2f5;
+    color: var(--dark);
+}
+
+.add-product {
+    background: var(--pink);
+    color: white;
+}
+
+.product-actions button:hover {
+    transform: translateY(-3px);
+}
+
+.empty-products {
+    display: none;
+
+    text-align: center;
+
+    padding: 70px 20px;
+}
+
+.empty-products.show {
+    display: block;
+}
+
+.empty-products > div {
+    font-size: 55px;
+}
+
+.empty-products h3 {
+    margin-top: 15px;
+}
+
+.empty-products p {
+    margin: 8px 0 20px;
+    color: var(--gray);
+}
+
+
+/* =====================================================
+   PROMOCIÓN
+===================================================== */
+
+.promo-section {
+    margin: 30px 7% 100px;
+
+    padding: 55px 8%;
+
+    border-radius: 30px;
+
+    background:
+        radial-gradient(circle at 80% 20%, #ffd6e6, transparent 30%),
+        linear-gradient(135deg, #fff0f6, #f5edff);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    overflow: hidden;
+}
+
+.promo-tag {
+    color: var(--pink);
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+.promo-content h2 {
+    margin: 12px 0;
+
+    font-size: clamp(28px, 4vw, 45px);
+}
+
+.promo-content h2 span {
+    color: var(--pink);
+}
+
+.promo-content p {
+    max-width: 600px;
+
+    color: var(--gray);
+
+    font-size: 13px;
+    line-height: 1.8;
+}
+
+.promo-code {
+    width: fit-content;
+
+    margin-top: 22px;
+
+    padding: 7px;
+
+    display: flex;
+    align-items: center;
+
+    border: 2px dashed var(--pink);
+
+    border-radius: 12px;
+
+    background: white;
+}
+
+.promo-code span {
+    padding: 0 15px;
+
+    color: var(--pink);
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+.promo-code button {
+    border: none;
+
+    padding: 9px 13px;
+
+    border-radius: 8px;
+
+    background: var(--pink);
+    color: white;
+
+    cursor: pointer;
+}
+
+.promo-content small {
+    display: block;
+    margin-top: 10px;
+    color: #9a8c93;
+    font-size: 9px;
+}
+
+.promo-decoration {
+    font-size: 120px;
+    animation: float 4s infinite;
+}
+
+
+/* =====================================================
+   PERSONALIZADOR
+===================================================== */
+
+.customize-section {
+    background: white;
+}
+
+.customizer {
+    max-width: 1100px;
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: .8fr 1.2fr;
+
+    background: var(--cream);
+
+    border-radius: 28px;
+
+    overflow: hidden;
+
+    box-shadow: var(--shadow);
+}
+
+.custom-preview {
+    min-height: 500px;
+
+    padding: 40px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background:
+        radial-gradient(circle, #ffe3ed, #f7efff);
+}
+
+.cake-preview {
+    position: relative;
+
+    width: 250px;
+    height: 220px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+
+.cake-bottom,
+.cake-middle,
+.cake-top {
+    border-radius: 50%;
+    box-shadow: inset 0 -10px 0 rgba(0,0,0,.04);
+}
+
+.cake-bottom {
+    width: 220px;
+    height: 75px;
+    background: #e5a6bd;
+}
+
+.cake-middle {
+    width: 190px;
+    height: 60px;
+    background: #f5c6d8;
+    margin-bottom: -12px;
+}
+
+.cake-top {
+    width: 155px;
+    height: 55px;
+    background: #fff;
+    margin-bottom: -10px;
+}
+
+.cake-candle {
+    position: absolute;
+    top: 5px;
+    font-size: 35px;
+}
+
+.custom-result {
+    margin-top: 35px;
+    text-align: center;
+}
+
+.custom-result span {
+    display: block;
+    color: var(--gray);
+    font-size: 11px;
+}
+
+.custom-result strong {
+    color: var(--pink);
+    font-size: 28px;
+}
+
+.custom-form {
+    padding: 40px;
+}
+
+.form-title {
+    display: flex;
+    gap: 13px;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.form-title > i {
+    width: 45px;
+    height: 45px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: var(--pink-light);
+    color: var(--pink);
+
+    border-radius: 13px;
+}
+
+.form-title h3 {
+    font-size: 18px;
+}
+
+.form-title p {
+    color: var(--gray);
+    font-size: 10px;
+}
+
+.form-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.form-group.full {
+    grid-column: 1 / -1;
+}
+
+.form-group label {
+    color: var(--dark);
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.form-group label i {
+    color: var(--pink);
+    margin-right: 5px;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+
+    min-height: 47px;
+
+    padding: 12px 14px;
+
+    border: 1px solid #eadde3;
+    border-radius: 11px;
+
+    outline: none;
+
+    background: white;
+
+    color: var(--dark);
+
+    font-size: 11px;
+
+    transition: var(--transition);
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    border-color: var(--pink);
+    box-shadow: 0 0 0 3px rgba(233,106,155,.08);
+}
+
+.custom-summary {
+    margin: 22px 0;
+
+    padding: 17px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    border-radius: 14px;
+
+    background: white;
+
+    border: 1px solid #f0dfe7;
+}
+
+.custom-summary span {
+    display: block;
+    color: var(--gray);
+    font-size: 9px;
+}
+
+.custom-summary strong {
+    color: var(--pink);
+}
+
+#customTotal {
+    font-size: 21px;
+}
+
+.full-btn {
+    width: 100%;
+}
+
+
+/* =====================================================
+   PEDIDOS
+===================================================== */
+
+.order-section {
+    background: var(--cream);
+}
+
+.order-container {
+    max-width: 1050px;
+    margin: auto;
+}
+
+.order-steps {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 35px;
+}
+
+.order-step {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.order-step > span {
+    width: 37px;
+    height: 37px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+
+    background: #eadfe4;
+    color: var(--gray);
+
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.order-step.active > span {
+    background: var(--pink);
+    color: white;
+}
+
+.order-step strong,
+.order-step small {
+    display: block;
+}
+
+.order-step strong {
+    font-size: 11px;
+}
+
+.order-step small {
+    color: var(--gray);
+    font-size: 8px;
+}
+
+.order-line {
+    width: 60px;
+    height: 2px;
+    margin: 0 12px;
+
+    background: #eadfe4;
+}
+
+.order-form {
+    padding: 35px;
+
+    background: white;
+
+    border-radius: 25px;
+
+    box-shadow: var(--shadow);
+}
+
+.order-form-title {
+    margin-bottom: 25px;
+}
+
+.order-form-title h3 {
+    font-size: 20px;
+}
+
+.order-form-title i {
+    color: var(--pink);
+}
+
+.order-form-title p {
+    color: var(--gray);
+    font-size: 11px;
+    margin-top: 5px;
+}
+
+.payment-section {
+    margin-top: 30px;
+}
+
+.payment-section h3 {
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+
+.payment-section h3 i {
+    color: var(--pink);
+}
+
+.payment-options {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.payment-card {
+    position: relative;
+    cursor: pointer;
+}
+
+.payment-card input {
+    position: absolute;
+    opacity: 0;
+}
+
+.payment-card span {
+    min-height: 100px;
+
+    padding: 15px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+
+    border: 1px solid #eadde3;
+
+    border-radius: 15px;
+
+    transition: var(--transition);
+}
+
+.payment-card input:checked + span {
+    border-color: var(--pink);
+    background: var(--pink-soft);
+    color: var(--pink);
+}
+
+.payment-card i {
+    font-size: 23px;
+    margin-bottom: 8px;
+}
+
+.payment-card strong {
+    font-size: 11px;
+}
+
+.payment-card small {
+    color: var(--gray);
+    font-size: 8px;
+    margin-top: 3px;
+}
+
+.order-final {
+    margin-top: 30px;
+
+    padding-top: 25px;
+
+    border-top: 1px solid #eee;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.order-final span {
+    display: block;
+    color: var(--gray);
+    font-size: 10px;
+}
+
+.order-final strong {
+    color: var(--pink);
+    font-size: 28px;
+}
+
+.btn-whatsapp {
+    background: #25d366;
+    color: white;
+
+    box-shadow: 0 10px 25px rgba(37,211,102,.2);
+}
+
+.btn-whatsapp:hover {
+    background: #1ebc59;
+    transform: translateY(-3px);
+}
+
+
+/* =====================================================
+   GALERÍA
+===================================================== */
+
+.gallery-section {
+    background: white;
+}
+
+.gallery-grid {
+    max-width: 1100px;
+    margin: auto;
+
+    display: grid;
+
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: 230px 230px;
+
+    gap: 15px;
+}
+
+.gallery-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.gallery-item.large {
+    grid-row: span 2;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+    transition: .6s;
+}
+
+.gallery-item:hover img {
+    transform: scale(1.1);
+}
+
+.gallery-overlay {
+    position: absolute;
+    inset: auto 0 0 0;
+
+    padding: 25px 17px 17px;
+
+    background: linear-gradient(
+        transparent,
+        rgba(0,0,0,.65)
+    );
+
+    color: white;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.gallery-overlay span {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.gallery-open {
+    width: 34px;
+    height: 34px;
+
+    border: none;
+    border-radius: 50%;
+
+    background: white;
+    color: var(--pink);
+
+    cursor: pointer;
+}
+
+
+/* =====================================================
+   OPINIONES
+===================================================== */
+
+.reviews-section {
+    background: var(--cream);
+}
+
+.reviews-grid {
+    max-width: 1100px;
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.review-card {
+    padding: 25px;
+
+    background: white;
+
+    border-radius: 20px;
+
+    box-shadow: 0 8px 25px rgba(0,0,0,.05);
+
+    transition: var(--transition);
+}
+
+.review-card:hover {
+    transform: translateY(-7px);
+}
+
+.review-stars {
+    color: #ffc44d;
+    letter-spacing: 3px;
+}
+
+.review-card > p {
+    margin: 18px 0;
+
+    color: var(--gray);
+
+    font-size: 12px;
+    line-height: 1.8;
+}
+
+.review-user {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.review-avatar {
+    width: 40px;
+    height: 40px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 50%;
+
+    background: var(--pink-light);
+    color: var(--pink);
+
+    font-weight: 700;
+}
+
+.review-user strong,
+.review-user span {
+    display: block;
+}
+
+.review-user strong {
+    font-size: 11px;
+}
+
+.review-user span {
+    color: var(--gray);
+    font-size: 9px;
+}
+
+.review-form-container {
+    max-width: 700px;
+    margin: 50px auto 0;
+
+    padding: 30px;
+
+    background: white;
+    border-radius: 20px;
+}
+
+.review-form-container h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.review-form {
+    display: grid;
+    gap: 12px;
+}
+
+.review-form input,
+.review-form select,
+.review-form textarea {
+    width: 100%;
+
+    padding: 13px;
+
+    border: 1px solid #eadde3;
+    border-radius: 10px;
+
+    outline: none;
+}
+
+.review-form textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
+
+/* =====================================================
+   CONTACTO
+===================================================== */
+
+.contact-section {
+    margin: 0;
+
+    padding: 70px 10%;
+
+    position: relative;
+    overflow: hidden;
+
+    background:
+        linear-gradient(
+            135deg,
+            #fff0f6,
+            #f3edff
+        );
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact-content h2 {
+    margin-top: 10px;
+
+    font-size: clamp(30px, 4vw, 45px);
+}
+
+.contact-content h2 span {
+    color: var(--pink);
+}
+
+.contact-content > p {
+    margin: 12px 0 25px;
+    color: var(--gray);
+    font-size: 13px;
+}
+
+.contact-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.contact-btn {
+    padding: 13px 18px;
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    border-radius: 13px;
+
+    background: white;
+
+    box-shadow: var(--shadow);
+
+    transition: var(--transition);
+}
+
+.contact-btn:hover {
+    transform: translateY(-4px);
+}
+
+.contact-btn > i {
+    font-size: 24px;
+}
+
+.contact-btn.whatsapp > i {
+    color: #25d366;
+}
+
+.contact-btn.phone > i {
+    color: var(--pink);
+}
+
+.contact-btn strong,
+.contact-btn span {
+    display: block;
+}
+
+.contact-btn strong {
+    font-size: 11px;
+}
+
+.contact-btn span {
+    color: var(--gray);
+    font-size: 8px;
+}
+
+.contact-decoration {
+    font-size: 130px;
+    animation: float 4s infinite;
+}
+
+
+/* =====================================================
+   FOOTER
+===================================================== */
+
+.footer {
+    background: #302530;
+    color: white;
+}
+
+.footer-main {
+    padding: 65px 7%;
+
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1.3fr;
+
+    gap: 50px;
+}
+
+.footer .logo {
+    color: white;
+}
+
+.footer-brand > p {
+    max-width: 320px;
+
+    margin-top: 18px;
+
+    color: #c9bec5;
+
+    font-size: 11px;
+    line-height: 1.8;
+}
+
+.footer-column h3 {
+    margin-bottom: 17px;
+
+    color: #ffb1cd;
+
+    font-size: 13px;
+}
+
+.footer-column a,
+.footer-column p {
+    display: block;
+
+    margin-bottom: 10px;
+
+    color: #c9bec5;
+
+    font-size: 10px;
+}
+
+.footer-column a:hover {
+    color: white;
+}
+
+.footer-column p i {
+    margin-right: 5px;
+    color: #ff8eb8;
+}
+
+.footer-social {
+    display: flex;
+    gap: 8px;
+    margin-top: 15px;
+}
+
+.footer-social a {
+    width: 33px;
+    height: 33px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 10px;
+
+    background: rgba(255,255,255,.08);
+}
+
+.footer-social a:hover {
+    background: var(--pink);
+}
+
+.footer-bottom {
+    padding: 17px 7%;
+
+    border-top: 1px solid rgba(255,255,255,.08);
+
+    display: flex;
+    justify-content: space-between;
+
+    color: #9f929a;
+
+    font-size: 9px;
+}
+
+
+/* =====================================================
+   WHATSAPP
+===================================================== */
+
+.floating-whatsapp {
+    position: fixed;
+
+    right: 25px;
+    bottom: 25px;
+
+    z-index: 900;
+
+    padding: 12px 17px;
+
+    display: flex;
+    align-items: center;
+    gap: 9px;
+
+    background: #25d366;
+    color: white;
+
+    border-radius: 40px;
+
+    box-shadow: 0 10px 30px rgba(37,211,102,.3);
+
+    font-size: 11px;
+    font-weight: 600;
+
+    transition: var(--transition);
+}
+
+.floating-whatsapp i {
+    font-size: 21px;
+}
+
+.floating-whatsapp:hover {
+    transform: translateY(-5px) scale(1.03);
+}
+
+
+/* =====================================================
+   BACK TOP
+===================================================== */
+
+.back-top {
+    position: fixed;
+
+    right: 25px;
+    bottom: 85px;
+
+    z-index: 899;
+
+    width: 42px;
+    height: 42px;
+
+    border: none;
+    border-radius: 50%;
+
+    background: var(--pink);
+    color: white;
+
+    cursor: pointer;
+
+    opacity: 0;
+    visibility: hidden;
+
+    transition: var(--transition);
+}
+
+.back-top.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+.back-top:hover {
+    transform: translateY(-4px);
+}
+
+
+/* =====================================================
+   MODALES
+===================================================== */
+
+.modal {
+    position: fixed;
+    inset: 0;
+
+    z-index: 5000;
+
+    display: none;
+
+    justify-content: flex-end;
+}
+
+.modal.show {
+    display: flex;
+}
+
+.modal-overlay {
+    position: absolute;
+    inset: 0;
+
+    background: rgba(35,25,31,.55);
+
+    backdrop-filter: blur(5px);
+}
+
+.cart-modal {
+    position: relative;
+    z-index: 2;
+
+    width: min(500px, 100%);
+
+    height: 100vh;
+
+    padding: 30px;
+
+    overflow-y: auto;
+
+    background: var(--cream);
+
+    animation: slideIn .35s ease;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(100%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+
+    margin-bottom: 25px;
+}
+
+.modal-header h2 {
+    margin-top: 5px;
+}
+
+.modal-close {
+    width: 38px;
+    height: 38px;
+
+    border: none;
+    border-radius: 50%;
+
+    background: white;
+
+    cursor: pointer;
+
+    color: var(--dark);
+
+    box-shadow: 0 5px 15px rgba(0,0,0,.05);
+}
+
+.modal-close:hover {
+    color: var(--pink);
+}
+
+
+/* =====================================================
+   CARRITO
+===================================================== */
+
+.cart-item {
+    padding: 12px;
+    margin-bottom: 10px;
+
+    display: grid;
+    grid-template-columns: 70px 1fr auto;
+    gap: 12px;
+    align-items: center;
+
+    background: white;
+
+    border-radius: 15px;
+}
+
+.cart-item-image {
+    width: 70px;
+    height: 70px;
+
+    border-radius: 12px;
+
+    overflow: hidden;
+}
+
+.cart-item-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.cart-item h4 {
+    font-size: 12px;
+}
+
+.cart-item-price {
+    color: var(--pink);
+    font-weight: 700;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.quantity-control {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    margin-top: 8px;
+}
+
+.quantity-control button {
+    width: 25px;
+    height: 25px;
+
+    border: none;
+    border-radius: 7px;
+
+    background: var(--pink-light);
+    color: var(--pink);
+
+    cursor: pointer;
+}
+
+.quantity-control span {
+    min-width: 15px;
+    text-align: center;
+    font-size: 11px;
+}
+
+.remove-item {
+    border: none;
+    background: none;
+
+    color: #aaa;
+
+    cursor: pointer;
+}
+
+.remove-item:hover {
+    color: #e84e63;
+}
+
+.cart-empty {
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.cart-empty > div {
+    font-size: 60px;
+}
+
+.cart-empty p {
+    color: var(--gray);
+    margin: 8px 0 20px;
+    font-size: 12px;
+}
+
+.cart-footer {
+    margin-top: 20px;
+}
+
+.coupon-box {
+    display: flex;
+    gap: 7px;
+}
+
+.coupon-box input {
+    flex: 1;
+
+    padding: 12px;
+
+    border: 1px solid #eadde3;
+    border-radius: 10px;
+
+    outline: none;
+}
+
+.coupon-box button {
+    padding: 0 17px;
+
+    border: none;
+    border-radius: 10px;
+
+    background: var(--dark);
+    color: white;
+
+    cursor: pointer;
+}
+
+.cart-summary {
+    margin-top: 20px;
+}
+
+.cart-summary > div {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 8px 0;
+
+    color: var(--gray);
+
+    font-size: 12px;
+}
+
+.cart-total {
+    margin-top: 8px;
+    padding-top: 15px !important;
+
+    border-top: 1px solid #eadde3;
+
+    color: var(--dark) !important;
+
+    font-size: 15px !important;
+}
+
+.cart-total strong {
+    color: var(--pink);
+    font-size: 22px;
+}
+
+.clear-cart {
+    width: 100%;
+
+    margin-top: 13px;
+    padding: 11px;
+
+    border: none;
+    background: transparent;
+
+    color: #aaa;
+
+    cursor: pointer;
+
+    font-size: 10px;
+}
+
+.clear-cart:hover {
+    color: #e84e63;
+}
+
+
+/* =====================================================
+   PRODUCT MODAL
+===================================================== */
+
+.product-modal {
+    position: relative;
+    z-index: 2;
+
+    width: min(850px, 95%);
+
+    max-height: 90vh;
+
+    margin: auto;
+
+    overflow: auto;
+
+    border-radius: 25px;
+
+    background: white;
+
+    animation: fadeUp .4s ease;
+}
+
+.product-modal-close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    z-index: 3;
+}
+
+.product-detail {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.product-detail-image {
+    min-height: 450px;
+}
+
+.product-detail-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.product-detail-content {
+    padding: 45px;
+}
+
+.product-detail-content h2 {
+    margin: 8px 0;
+    font-size: 30px;
+}
+
+.product-detail-content > p {
+    margin: 15px 0;
+    color: var(--gray);
+    line-height: 1.8;
+    font-size: 12px;
+}
+
+.detail-price {
+    color: var(--pink);
+    font-size: 25px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+
+/* =====================================================
+   GALERÍA MODAL
+===================================================== */
+
+.gallery-modal {
+    position: fixed;
+    inset: 0;
+
+    z-index: 8000;
+
+    display: none;
+
+    align-items: center;
+    justify-content: center;
+
+    padding: 30px;
+
+    background: rgba(20,15,18,.9);
+}
+
+.gallery-modal.show {
+    display: flex;
+}
+
+.gallery-modal img {
+    max-width: 90vw;
+    max-height: 85vh;
+
+    border-radius: 15px;
+
+    object-fit: contain;
+}
+
+.gallery-modal-close {
+    position: absolute;
+
+    top: 25px;
+    right: 25px;
+
+    width: 45px;
+    height: 45px;
+
+    border: none;
+    border-radius: 50%;
+
+    background: white;
+    color: var(--dark);
+
+    cursor: pointer;
+
+    font-size: 18px;
+}
+
+
+/* =====================================================
+   NOTIFICACIONES
+===================================================== */
+
+#notifications {
+    position: fixed;
+
+    top: 95px;
+    right: 20px;
+
+    z-index: 10000;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.notification {
+    min-width: 280px;
+
+    padding: 13px 16px;
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    border-radius: 13px;
+
+    background: white;
+
+    box-shadow: var(--shadow);
+
+    animation: notificationIn .35s ease;
+
+    font-size: 11px;
+}
+
+.notification i {
+    color: var(--pink);
+    font-size: 18px;
+}
+
+.notification.hide {
+    animation: notificationOut .35s ease forwards;
+}
+
+@keyframes notificationIn {
+    from {
+        opacity: 0;
+        transform: translateX(40px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes notificationOut {
+    to {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+}
+
+
+/* =====================================================
+   RESPONSIVE
+===================================================== */
+
+@media (max-width: 1150px) {
+
+    .navbar {
+        gap: 12px;
+    }
+
+    .nav-link {
+        font-size: 11px;
+    }
+
+    .products-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .benefits {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+@media (max-width: 900px) {
+
+    .top-left span:first-child {
+        display: none;
+    }
+
+    .navbar {
+        position: absolute;
+
+        top: 82px;
+        left: 0;
+        right: 0;
+
+        padding: 20px;
+
+        display: none;
+        flex-direction: column;
+
+        background: white;
+
+        box-shadow: var(--shadow);
+    }
+
+    .navbar.open {
+        display: flex;
+    }
+
+    .nav-link {
+        padding: 12px;
+    }
+
+    .menu-btn {
+        display: block;
+    }
+
+    .hero {
+        grid-template-columns: 1fr;
+        text-align: center;
+        padding-top: 60px;
+    }
+
+    .hero-label {
+        justify-content: center;
+    }
+
+    .hero-content > p {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .hero-buttons,
+    .hero-stats {
+        justify-content: center;
+    }
+
+    .hero-image {
+        min-height: 400px;
+    }
+
+    .hero-image img,
+    .hero-image-bg {
+        width: 350px;
+        height: 350px;
+    }
+
+    .products-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .customizer {
+        grid-template-columns: 1fr;
+    }
+
+    .custom-preview {
+        min-height: 380px;
+    }
+
+    .payment-options {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .reviews-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-main {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+@media (max-width: 600px) {
+
+    .top-bar {
+        justify-content: center;
+    }
+
+    .top-social span {
+        display: none;
+    }
+
+    .header {
+        padding: 10px 4%;
+    }
+
+    .logo-icon {
+        width: 40px;
+        height: 40px;
+    }
+
+    .logo {
+        font-size: 20px;
+    }
+
+    .hero {
+        min-height: auto;
+        padding: 65px 5%;
+    }
+
+    .hero h1 {
+        font-size: 42px;
+    }
+
+    .hero-image img,
+    .hero-image-bg {
+        width: 290px;
+        height: 290px;
+    }
+
+    .hero-image {
+        min-height: 350px;
+    }
+
+    .floating-card {
+        transform: scale(.8);
+    }
+
+    .card-one {
+        left: -10px;
+    }
+
+    .card-two {
+        right: -10px;
+    }
+
+    .benefits {
+        grid-template-columns: 1fr;
+        padding: 30px 7%;
+    }
+
+    .section {
+        padding: 70px 5%;
+    }
+
+    .section-heading {
+        display: block;
+    }
+
+    .catalog-counter {
+        text-align: left;
+        margin-top: 15px;
+    }
+
+    .catalog-tools {
+        flex-direction: column;
+    }
+
+    .products-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 12px;
+    }
+
+    .product-image {
+        height: 170px;
+    }
+
+    .product-info {
+        padding: 12px;
+    }
+
+    .product-info h3 {
+        font-size: 13px;
+    }
+
+    .product-info p {
+        font-size: 9px;
+    }
+
+    .product-price {
+        font-size: 14px;
+    }
+
+    .product-actions button {
+        width: 32px;
+        height: 32px;
+    }
+
+    .promo-section {
+        margin: 10px 5% 70px;
+        padding: 40px 25px;
+    }
+
+    .promo-decoration {
+        display: none;
+    }
+
+    .form-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .form-group.full {
+        grid-column: auto;
+    }
+
+    .custom-form {
+        padding: 25px;
+    }
+
+    .order-steps {
+        overflow-x: auto;
+        justify-content: flex-start;
+    }
+
+    .order-line {
+        width: 25px;
+    }
+
+    .order-step {
+        flex-shrink: 0;
+    }
+
+    .order-step div {
+        display: none;
+    }
+
+    .order-form {
+        padding: 22px 15px;
+    }
+
+    .payment-options {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .order-final {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .order-final > div {
+        text-align: center;
+    }
+
+    .gallery-grid {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 180px 180px 180px;
+    }
+
+    .gallery-item.large {
+        grid-column: span 2;
+        grid-row: span 1;
+    }
+
+    .contact-section {
+        padding: 60px 5%;
+    }
+
+    .contact-decoration {
+        display: none;
+    }
+
+    .contact-buttons {
+        flex-direction: column;
+    }
+
+    .footer-main {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .floating-whatsapp span {
+        display: none;
+    }
+
+    .floating-whatsapp {
+        width: 50px;
+        height: 50px;
+        justify-content: center;
+        padding: 0;
+        right: 17px;
+        bottom: 17px;
+    }
+
+    .back-top {
+        right: 17px;
+        bottom: 78px;
+    }
+
+    .cart-modal {
+        padding: 20px 15px;
+    }
+
+    .product-detail {
+        grid-template-columns: 1fr;
+    }
+
+    .product-detail-image {
+        min-height: 280px;
+    }
+
+    .product-detail-content {
+        padding: 25px;
+    }
+
+    .notification {
+        min-width: auto;
+        max-width: 90vw;
+    }
+}
+</style>
+<script>
+    
+    /* =====================================================
+   MAGIC DESSERTS
+   JAVASCRIPT COMPLETO
+===================================================== */
+
+document.addEventListener("DOMContentLoaded", () => {
+
+    /* =================================================
+       PRODUCTOS
+    ================================================= */
+
+    const products = [
+
+        {
+            id: 1,
+            name: "Tiramisú Chocolate",
+            price: 50,
+            category: "pasteles",
+            categoryName: "Pasteles",
+            description: "Delicioso tiramisú con chocolate y crema.",
+            image: "8.jpeg",
+            label: "Favorito"
+        },
+
+        {
+            id: 2,
+            name: "Cheesecake Oreo",
+            price: 45,
+            category: "cheesecake",
+            categoryName: "Cheesecakes",
+            description: "Cheesecake cremoso con una deliciosa base de Oreo.",
+            image: "2.jpg",
+            label: "Popular"
+        },
+
+        {
+            id: 3,
+            name: "Red Velvet",
+            price: 48,
+            category: "pasteles",
+            categoryName: "Pasteles",
+            description: "Suave pastel Red Velvet con crema de queso.",
+            image: "14.jpeg",
+            label: "Más vendido"
+        },
+
+        {
+            id: 4,
+            name: "Pay de Limón",
+            price: 40,
+            category: "tortas",
+            categoryName: "Tortas",
+            description: "Postre refrescante con crema y limón.",
+            image: "d.jpg",
+            label: ""
+        },
+
+        {
+            id: 5,
+            name: "Cupcakes de Vainilla",
+            price: 30,
+            category: "cupcakes",
+            categoryName: "Cupcakes",
+            description: "Cupcakes suaves de vainilla con decoración artesanal.",
+            image: "13.jpeg",
+            label: "Nuevo"
+        },
+
+        {
+            id: 6,
+            name: "Galletas con Chispas",
+            price: 25,
+            category: "galletas",
+            categoryName: "Galletas",
+            description: "Galletas caseras con abundantes chispas de chocolate.",
+            image: "7.jpeg",
+            label: ""
+        },
+
+        {
+            id: 7,
+            name: "Tres Leches",
+            price: 22,
+            category: "vaso",
+            categoryName: "Postres en vaso",
+            description: "Clásico tres leches suave y cremoso.",
+            image: "0.jpg",
+            label: "Oferta"
+        },
+
+        {
+            id: 8,
+            name: "Brownie de Chocolate",
+            price: 28,
+            category: "brownies",
+            categoryName: "Brownies",
+            description: "Brownie húmedo con intenso sabor a chocolate.",
+            image: "4.jpeg",
+            label: ""
+        },
+
+        {
+            id: 9,
+            name: "Torta de Fresa",
+            price: 65,
+            category: "tortas",
+            categoryName: "Tortas",
+            description: "Torta suave con crema y fresas naturales.",
+            image: "5.jpeg"
+        },
+
+        {
+            id: 10,
+            name: "Cheesecake de Fresa",
+            price: 52,
+            category: "cheesecake",
+            categoryName: "Cheesecakes",
+            description: "Cheesecake cremoso cubierto con fresas.",
+            image: "12.jpg",
+            label: ""
+        },
+
+        {
+            id: 11,
+            name: "Cupcakes de Chocolate",
+            price: 35,
+            category: "cupcakes",
+            categoryName: "Cupcakes",
+            description: "Cupcakes de chocolate con crema especial.",
+            image: "6.jpeg",
+            label: ""
+        },
+
+        {
+            id: 12,
+            name: "Brownie Especial",
+            price: 32,
+            category: "brownies",
+            categoryName: "Brownies",
+            description: "Brownie artesanal con chocolate y nueces.",
+            image: "4.jpeg",
+            label: "Especial"
+        }
+
+    ];
+
+
+    /* =================================================
+       VARIABLES
+    ================================================= */
+
+    let cart = JSON.parse(localStorage.getItem("magicCart")) || [];
+
+    let favorites =
+        JSON.parse(localStorage.getItem("magicFavorites")) || [];
+
+    let currentCategory = "todos";
+
+    let currentSearch = "";
+
+    let discount = 0;
+
+
+    /* =================================================
+       ELEMENTOS
+    ================================================= */
+
+    const productsGrid =
+        document.getElementById("productsGrid");
+
+    const productsFound =
+        document.getElementById("productsFound");
+
+    const emptyProducts =
+        document.getElementById("emptyProducts");
+
+    const searchInput =
+        document.getElementById("search");
+
+    const sortSelect =
+        document.getElementById("sort");
+
+
+    /* =================================================
+       LOADER
+    ================================================= */
+
+    window.addEventListener("load", () => {
+
+        setTimeout(() => {
+            document.getElementById("loader")
+                .classList.add("hidden");
+        }, 900);
+
+    });
+
+
+    /* =================================================
+       NOTIFICACIONES
+    ================================================= */
+
+    function notify(message, icon = "fa-check") {
+
+        const container =
+            document.getElementById("notifications");
+
+        const notification =
+            document.createElement("div");
+
+        notification.className = "notification";
+
+        notification.innerHTML = `
+            <i class="fa-solid ${icon}"></i>
+            <span>${message}</span>
+        `;
+
+        container.appendChild(notification);
+
+        setTimeout(() => {
+
+            notification.classList.add("hide");
+
+            setTimeout(() => {
+                notification.remove();
+            }, 350);
+
+        }, 2800);
+    }
+
+
+    /* =================================================
+       GUARDAR
+    ================================================= */
+
+    function saveData() {
+
+        localStorage.setItem(
+            "magicCart",
+            JSON.stringify(cart)
+        );
+
+        localStorage.setItem(
+            "magicFavorites",
+            JSON.stringify(favorites)
+        );
+
+    }
+
+
+    /* =================================================
+       RENDER PRODUCTOS
+    ================================================= */
+
+    function renderProducts() {
+
+        let filtered = products.filter(product => {
+
+            const categoryMatch =
+                currentCategory === "todos" ||
+                product.category === currentCategory;
+
+            const searchMatch =
+                product.name
+                    .toLowerCase()
+                    .includes(currentSearch.toLowerCase());
+
+            return categoryMatch && searchMatch;
+
+        });
+
+
+        const sort = sortSelect.value;
+
+        if (sort === "low") {
+
+            filtered.sort(
+                (a, b) => a.price - b.price
+            );
+
+        }
+
+        if (sort === "high") {
+
+            filtered.sort(
+                (a, b) => b.price - a.price
+            );
+
+        }
+
+        if (sort === "name") {
+
+            filtered.sort(
+                (a, b) =>
+                    a.name.localeCompare(b.name)
+            );
+
+        }
+
+
+        productsFound.textContent = filtered.length;
+
+
+        if (!filtered.length) {
+
+            productsGrid.innerHTML = "";
+
+            emptyProducts.classList.add("show");
+
+            return;
+        }
+
+
+        emptyProducts.classList.remove("show");
+
+
+        productsGrid.innerHTML =
+            filtered.map(product => {
+
+                const isFavorite =
+                    favorites.includes(product.id);
+
+                return `
+
+                <article
+                    class="product-card"
+                    data-id="${product.id}"
+                >
+
+                    <div class="product-image">
+
+                        <img
+                            src="${product.image}"
+                            alt="${product.name}"
+                            loading="lazy"
+                        >
+
+                        ${
+                            product.label
+                                ? `<span class="product-label">
+                                    ${product.label}
+                                   </span>`
+                                : ""
+                        }
+
+                        <button
+                            class="favorite-btn ${
+                                isFavorite ? "active" : ""
+                            }"
+                            data-favorite="${product.id}"
+                            title="Favorito"
+                        >
+                            <i class="${
+                                isFavorite
+                                ? "fa-solid"
+                                : "fa-regular"
+                            } fa-heart"></i>
+                        </button>
+
+                    </div>
+
+
+                    <div class="product-info">
+
+                        <span class="product-category">
+                            ${product.categoryName}
+                        </span>
+
+                        <h3>
+                            ${product.name}
+                        </h3>
+
+                        <p>
+                            ${product.description}
+                        </p>
+
+
+                        <div class="product-bottom">
+
+                            <strong class="product-price">
+                                Bs. ${product.price}
+                            </strong>
+
+
+                            <div class="product-actions">
+
+                                <button
+                                    class="view-product"
+                                    data-view="${product.id}"
+                                    title="Ver producto"
+                                >
+                                    <i class="fa-regular fa-eye"></i>
+                                </button>
+
+                                <button
+                                    class="add-product"
+                                    data-add="${product.id}"
+                                    title="Agregar al carrito"
+                                >
+                                    <i class="fa-solid fa-plus"></i>
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </article>
+                `;
+
+            }).join("");
+
+    }
+
+
+    /* =================================================
+       FILTROS
+    ================================================= */
+
+    document.querySelectorAll(".category")
+        .forEach(button => {
+
+            button.addEventListener("click", () => {
+
+                document
+                    .querySelectorAll(".category")
+                    .forEach(btn =>
+                        btn.classList.remove("active")
+                    );
+
+                button.classList.add("active");
+
+                currentCategory =
+                    button.dataset.filter;
+
+                renderProducts();
+
+            });
+
+        });
+
+
+    /* =================================================
+       BÚSQUEDA
+    ================================================= */
+
+    searchInput.addEventListener("input", e => {
+
+        currentSearch = e.target.value;
+
+        renderProducts();
+
+    });
+
+
+    document
+        .getElementById("clearSearch")
+        .addEventListener("click", () => {
+
+            searchInput.value = "";
+
+            currentSearch = "";
+
+            renderProducts();
+
+        });
+
+
+    sortSelect.addEventListener(
+        "change",
+        renderProducts
+    );
+
+
+    document
+        .getElementById("resetFilters")
+        .addEventListener("click", () => {
+
+            currentCategory = "todos";
+
+            currentSearch = "";
+
+            searchInput.value = "";
+
+            sortSelect.value = "normal";
+
+            document
+                .querySelectorAll(".category")
+                .forEach(btn =>
+                    btn.classList.remove("active")
+                );
+
+            document
+                .querySelector('[data-filter="todos"]')
+                .classList.add("active");
+
+            renderProducts();
+
+        });
+
+
+    /* =================================================
+       EVENTOS DE PRODUCTOS
+    ================================================= */
+
+    productsGrid.addEventListener("click", e => {
+
+        const favorite =
+            e.target.closest("[data-favorite]");
+
+        const add =
+            e.target.closest("[data-add]");
+
+        const view =
+            e.target.closest("[data-view]");
+
+
+        if (favorite) {
+
+            toggleFavorite(
+                Number(favorite.dataset.favorite)
+            );
+
+        }
+
+
+        if (add) {
+
+            addToCart(
+                Number(add.dataset.add)
+            );
+
+        }
+
+
+        if (view) {
+
+            openProductModal(
+                Number(view.dataset.view)
+            );
+
+        }
+
+    });
+
+
+    /* =================================================
+       FAVORITOS
+    ================================================= */
+
+    function toggleFavorite(id) {
+
+        if (favorites.includes(id)) {
+
+            favorites =
+                favorites.filter(
+                    item => item !== id
+                );
+
+            notify(
+                "Eliminado de favoritos",
+                "fa-heart"
+            );
+
+        } else {
+
+            favorites.push(id);
+
+            notify(
+                "Agregado a favoritos ❤️",
+                "fa-heart"
+            );
+
+        }
+
+        saveData();
+
+        updateCounters();
+
+        renderProducts();
+
+        renderFavorites();
+
+    }
+
+
+    function updateCounters() {
+
+        document.getElementById(
+            "favoritesCount"
+        ).textContent = favorites.length;
+
+        const quantity =
+            cart.reduce(
+                (total, item) =>
+                    total + item.quantity,
+                0
+            );
+
+        document.getElementById(
+            "cartCount"
+        ).textContent = quantity;
+
+        document.getElementById(
+            "orderTotal"
+        ).textContent =
+            `Bs. ${calculateTotal()}`;
+
+    }
+
+
+    /* =================================================
+       MODAL FAVORITOS
+    ================================================= */
+
+    document
+        .getElementById("favoritesBtn")
+        .addEventListener("click", () => {
+
+            renderFavorites();
+
+            openModal("favoritesModal");
+
+        });
+
+
+    function renderFavorites() {
+
+        const container =
+            document.getElementById(
+                "favoritesItems"
+            );
+
+        const favoriteProducts =
+            products.filter(product =>
+                favorites.includes(product.id)
+            );
+
+
+        if (!favoriteProducts.length) {
+
+            container.innerHTML = `
+                <div class="cart-empty">
+                    <div>❤️</div>
+                    <h3>No tienes favoritos</h3>
+                    <p>
+                        Pulsa el corazón de un producto
+                        para guardarlo aquí.
+                    </p>
+                </div>
+            `;
+
+            return;
+        }
+
+
+        container.innerHTML =
+            favoriteProducts.map(product => `
+
+                <div class="cart-item">
+
+                    <div class="cart-item-image">
+                        <img
+                            src="${product.image}"
+                            alt="${product.name}"
+                        >
+                    </div>
+
+                    <div>
+                        <h4>${product.name}</h4>
+
+                        <div class="cart-item-price">
+                            Bs. ${product.price}
+                        </div>
+
+                        <button
+                            class="btn btn-primary"
+                            style="margin-top:8px;padding:7px 10px;font-size:9px"
+                            onclick="window.magicAddToCart(${product.id})"
+                        >
+                            Agregar
+                        </button>
+                    </div>
+
+                    <button
+                        class="remove-item"
+                        onclick="window.magicRemoveFavorite(${product.id})"
+                    >
+                        <i class="fa-solid fa-trash"></i>
+                    </button>
+
+                </div>
+
+            `).join("");
+
+    }
+
+
+    window.magicAddToCart = function(id) {
+
+        addToCart(id);
+
+    };
+
+
+    window.magicRemoveFavorite = function(id) {
+
+        favorites =
+            favorites.filter(
+                item => item !== id
+            );
+
+        saveData();
+
+        updateCounters();
+
+        renderFavorites();
+
+        renderProducts();
+
+        notify(
+            "Eliminado de favoritos",
+            "fa-heart"
+        );
+
+    };
+
+
+    /* =================================================
+       CARRITO
+    ================================================= */
+
+    function addToCart(id) {
+
+        const product =
+            products.find(
+                item => item.id === id
+            );
+
+        if (!product) return;
+
+
+        const existing =
+            cart.find(
+                item => item.id === id
+            );
+
+
+        if (existing) {
+
+            existing.quantity++;
+
+        } else {
+
+            cart.push({
+                id: product.id,
+                name: product.name,
+                price: product.price,
+                image: product.image,
+                quantity: 1
+            });
+
+        }
+
+
+        saveData();
+
+        updateCounters();
+
+        renderCart();
+
+        notify(
+            `${product.name} agregado al carrito 🛒`,
+            "fa-cart-plus"
+        );
+
+    }
+
+
+    function changeQuantity(id, amount) {
+
+        const item =
+            cart.find(
+                product => product.id === id
+            );
+
+        if (!item) return;
+
+
+        item.quantity += amount;
+
+
+        if (item.quantity <= 0) {
+
+            cart =
+                cart.filter(
+                    product => product.id !== id
+                );
+
+        }
+
+
+        saveData();
+
+        renderCart();
+
+        updateCounters();
+
+    }
+
+
+    function removeFromCart(id) {
+
+        const item =
+            cart.find(
+                product => product.id === id
+            );
+
+        cart =
+            cart.filter(
+                product => product.id !== id
+            );
+
+        saveData();
+
+        renderCart();
+
+        updateCounters();
+
+        if (item) {
+
+            notify(
+                `${item.name} eliminado`,
+                "fa-trash"
+            );
+
+        }
+
+    }
+
+
+    function calculateSubtotal() {
+
+        return cart.reduce(
+            (total, item) =>
+                total + item.price * item.quantity,
+            0
+        );
+
+    }
+
+
+    function calculateTotal() {
+
+        const subtotal =
+            calculateSubtotal();
+
+        const discountAmount =
+            subtotal * discount;
+
+        return Math.max(
+            0,
+            subtotal - discountAmount
+        );
+
+    }
+
+
+    function renderCart() {
+
+        const container =
+            document.getElementById("cartItems");
+
+        const empty =
+            document.getElementById("cartEmpty");
+
+        const footer =
+            document.getElementById("cartFooter");
+
+
+        if (!cart.length) {
+
+            container.innerHTML = "";
+
+            empty.style.display = "block";
+
+            footer.style.display = "none";
+
+            return;
+        }
+
+
+        empty.style.display = "none";
+
+        footer.style.display = "block";
+
+
+        container.innerHTML =
+            cart.map(item => `
+
+                <div class="cart-item">
+
+                    <div class="cart-item-image">
+
+                        <img
+                            src="${item.image}"
+                            alt="${item.name}"
+                        >
+
+                    </div>
+
+
+                    <div>
+
+                        <h4>
+                            ${item.name}
+                        </h4>
+
+                        <div class="cart-item-price">
+                            Bs. ${item.price * item.quantity}
+                        </div>
+
+
+                        <div class="quantity-control">
+
+                            <button
+                                onclick="window.magicChangeQuantity(${item.id}, -1)"
+                            >
+                                −
+                            </button>
+
+                            <span>
+                                ${item.quantity}
+                            </span>
+
+                            <button
+                                onclick="window.magicChangeQuantity(${item.id}, 1)"
+                            >
+                                +
+                            </button>
+
+                        </div>
+
+                    </div>
+
+
+                    <button
+                        class="remove-item"
+                        onclick="window.magicRemoveFromCart(${item.id})"
+                    >
+                        <i class="fa-solid fa-trash"></i>
+                    </button>
+
+                </div>
+
+            `).join("");
+
+
+        const subtotal =
+            calculateSubtotal();
+
+        const discountAmount =
+            subtotal * discount;
+
+        const total =
+            calculateTotal();
+
+
+        document.getElementById(
+            "cartSubtotal"
+        ).textContent =
+            `Bs. ${subtotal.toFixed(2)}`;
+
+
+        document.getElementById(
+            "cartDiscount"
+        ).textContent =
+            `- Bs. ${discountAmount.toFixed(2)}`;
+
+
+        document.getElementById(
+            "cartTotal"
+        ).textContent =
+            `Bs. ${total.toFixed(2)}`;
+
+    }
+
+
+    window.magicChangeQuantity =
+        changeQuantity;
+
+    window.magicRemoveFromCart =
+        removeFromCart;
+
+
+    /* =================================================
+       ABRIR CARRITO
+    ================================================= */
+
+    document
+        .getElementById("openCart")
+        .addEventListener("click", () => {
+
+            renderCart();
+
+            openModal("cartModal");
+
+        });
+
+
+    /* =================================================
+       VACIAR CARRITO
+    ================================================= */
+
+    document
+        .getElementById("clearCart")
+        .addEventListener("click", () => {
+
+            if (!cart.length) return;
+
+
+            if (
+                confirm(
+                    "¿Seguro que quieres vaciar el carrito?"
+                )
+            ) {
+
+                cart = [];
+
+                discount = 0;
+
+                saveData();
+
+                renderCart();
+
+                updateCounters();
+
+                notify(
+                    "Carrito vaciado",
+                    "fa-trash"
+                );
+
+            }
+
+        });
+
+
+    /* =================================================
+       CUPÓN
+    ================================================= */
+
+    document
+        .getElementById("applyCoupon")
+        .addEventListener("click", () => {
+
+            const input =
+                document.getElementById(
+                    "couponInput"
+                );
+
+            const code =
+                input.value.trim().toUpperCase();
+
+
+            if (code === "MAGIC20") {
+
+                if (calculateSubtotal() <= 0) {
+
+                    notify(
+                        "Agrega productos primero",
+                        "fa-circle-exclamation"
+                    );
+
+                    return;
+                }
+
+
+                if (discount === .20) {
+
+                    notify(
+                        "El código ya está aplicado",
+                        "fa-ticket"
+                    );
+
+                    return;
+                }
+
+
+                discount = .20;
+
+                renderCart();
+
+                updateCounters();
+
+                notify(
+                    "¡20% de descuento aplicado! 🎁",
+                    "fa-gift"
+                );
+
+                input.value = "";
+
+            } else {
+
+                notify(
+                    "Código promocional incorrecto",
+                    "fa-circle-exclamation"
+                );
+
+            }
+
+        });
+
+
+    /* =================================================
+       COPIAR PROMOCIÓN
+    ================================================= */
+
+    document
+        .getElementById("copyPromo")
+        .addEventListener("click", async () => {
+
+            try {
+
+                await navigator.clipboard.writeText(
+                    "MAGIC20"
+                );
+
+                notify(
+                    "Código MAGIC20 copiado",
+                    "fa-copy"
+                );
+
+            } catch {
+
+                notify(
+                    "Código: MAGIC20",
+                    "fa-ticket"
+                );
+
+            }
+
+        });
+
+
+    /* =================================================
+       MODALES
+    ================================================= */
+
+    function openModal(id) {
+
+        document
+            .getElementById(id)
+            .classList.add("show");
+
+        document.body.style.overflow = "hidden";
+
+    }
+
+
+    function closeModal(id) {
+
+        document
+            .getElementById(id)
+            .classList.remove("show");
+
+        document.body.style.overflow = "";
+
+    }
+
+
+    document
+        .querySelectorAll("[data-close]")
+        .forEach(button => {
+
+            button.addEventListener("click", () => {
+
+                closeModal(
+                    button.dataset.close
+                );
+
+            });
+
+        });
+
+
+    document
+        .querySelectorAll(".modal-overlay")
+        .forEach(overlay => {
+
+            overlay.addEventListener("click", () => {
+
+                const modal =
+                    overlay.closest(".modal");
+
+                if (modal) {
+
+                    closeModal(modal.id);
+
+                }
+
+            });
+
+        });
+
+
+    document.addEventListener(
+        "keydown",
+        e => {
+
+            if (e.key === "Escape") {
+
+                document
+                    .querySelectorAll(".modal.show")
+                    .forEach(modal =>
+                        closeModal(modal.id)
+                    );
+
+            }
+
+        }
+    );
+
+
+    /* =================================================
+       MODAL PRODUCTO
+    ================================================= */
+
+    function openProductModal(id) {
+
+        const product =
+            products.find(
+                item => item.id === id
+            );
+
+        if (!product) return;
+
+
+        document.getElementById(
+            "productModalContent"
+        ).innerHTML = `
+
+            <div class="product-detail">
+
+                <div class="product-detail-image">
+
+                    <img
+                        src="${product.image}"
+                        alt="${product.name}"
+                    >
+
+                </div>
+
+
+                <div class="product-detail-content">
+
+                    <span class="section-tag">
+                        ${product.categoryName}
+                    </span>
+
+                    <h2>
+                        ${product.name}
+                    </h2>
+
+                    <p>
+                        ${product.description}
+                    </p>
+
+                    <div class="detail-price">
+                        Bs. ${product.price}
+                    </div>
+
+                    <button
+                        class="btn btn-primary full-btn"
+                        onclick="window.magicAddToCart(${product.id}); document.querySelector('[data-close=productModal]').click();"
+                    >
+                        <i class="fa-solid fa-cart-plus"></i>
+                        Agregar al carrito
+                    </button>
+
+                </div>
+
+            </div>
+
+        `;
+
+
+        openModal("productModal");
+
+    }
+
+
+    /* =================================================
+       PERSONALIZADOR
+    ================================================= */
+
+    const sabor =
+        document.getElementById("sabor");
+
+    const tamano =
+        document.getElementById("tamano");
+
+    const relleno =
+        document.getElementById("relleno");
+
+    const mensaje =
+        document.getElementById("mensaje");
+
+
+    function getSelectedPrice(select) {
+
+        const option =
+            select.options[select.selectedIndex];
+
+        if (!option) return 0;
+
+        return Number(
+            option.dataset.price || 0
+        );
+
+    }
+
+
+    function updateCustomizer() {
+
+        const saborValue =
+            sabor.value;
+
+        const tamanoValue =
+            tamano.value;
+
+        const rellenoValue =
+            relleno.value;
+
+        const messageValue =
+            mensaje.value.trim();
+
+
+        const base =
+            getSelectedPrice(sabor);
+
+        const size =
+            getSelectedPrice(tamano);
+
+        const filling =
+            getSelectedPrice(relleno);
+
+
+        const total =
+            base + size + filling;
+
+
+        document.getElementById(
+            "customPrice"
+        ).textContent =
+            `Bs. ${total}`;
+
+
+        document.getElementById(
+            "customTotal"
+        ).textContent =
+            `Bs. ${total}`;
+
+
+        if (!saborValue) {
+
+            document.getElementById(
+                "customText"
+            ).textContent =
+                "Completa las opciones";
+
+            return;
+
+        }
+
+
+        document.getElementById(
+            "customText"
+        ).textContent =
+
+            `${saborValue} ${
+                tamanoValue
+                ? "• " + tamanoValue
+                : ""
+            } ${
+                rellenoValue
+                ? "• " + rellenoValue
+                : ""
+            } ${
+                messageValue
+                ? "• \"" + messageValue + "\""
+                : ""
+            }`;
+
+    }
+
+
+    [
+        sabor,
+        tamano,
+        relleno,
+        mensaje
+    ].forEach(element => {
+
+        element.addEventListener(
+            "input",
+            updateCustomizer
+        );
+
+        element.addEventListener(
+            "change",
+            updateCustomizer
+        );
+
+    });
+
+
+    /* =================================================
+       AGREGAR PERSONALIZADO
+    ================================================= */
+
+    document
+        .getElementById("personalizarBtn")
+        .addEventListener("click", () => {
+
+            if (!sabor.value) {
+
+                notify(
+                    "Selecciona un sabor",
+                    "fa-circle-exclamation"
+                );
+
+                sabor.focus();
+
+                return;
+            }
+
+
+            if (!tamano.value) {
+
+                notify(
+                    "Selecciona un tamaño",
+                    "fa-circle-exclamation"
+                );
+
+                tamano.focus();
+
+                return;
+            }
+
+
+            if (!relleno.value) {
+
+                notify(
+                    "Selecciona un relleno",
+                    "fa-circle-exclamation"
+                );
+
+                relleno.focus();
+
+                return;
+            }
+
+
+            const total =
+                getSelectedPrice(sabor) +
+                getSelectedPrice(tamano) +
+                getSelectedPrice(relleno);
+
+
+            const customId =
+                Date.now();
+
+
+            cart.push({
+
+                id: customId,
+
+                name:
+                    `Pastel personalizado - ${sabor.value}`,
+
+                price: total,
+
+                image:
+                    "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=700&q=80",
+
+                quantity: 1
+
+            });
+
+
+            saveData();
+
+            updateCounters();
+
+            renderCart();
+
+
+            notify(
+                "¡Tu pastel personalizado fue agregado! 🎂",
+                "fa-wand-magic-sparkles"
+            );
+
+
+            document
+                .getElementById("openCart")
+                .click();
+
+        });
+
+
+    /* =================================================
+       DEPARTAMENTOS / MUNICIPIOS
+    ================================================= */
+
+    const municipalities = {
+
+        "Cochabamba": [
+            "Cochabamba",
+            "Tiquipaya",
+            "Quillacollo",
+            "Sacaba",
+            "Colcapirhua",
+            "Vinto"
+        ],
+
+        "La Paz": [
+            "La Paz",
+            "El Alto",
+            "Achocalla",
+            "Viacha"
+        ],
+
+        "Santa Cruz": [
+            "Santa Cruz de la Sierra",
+            "Montero",
+            "Warnes",
+            "Cotoca"
+        ],
+
+        "Oruro": [
+            "Oruro",
+            "Huanuni",
+            "Challapata"
+        ],
+
+        "Potosí": [
+            "Potosí",
+            "Uyuni",
+            "Villazón"
+        ],
+
+        "Chuquisaca": [
+            "Sucre",
+            "Monteagudo",
+            "Camargo"
+        ],
+
+        "Tarija": [
+            "Tarija",
+            "Yacuiba",
+            "Bermejo"
+        ],
+
+        "Beni": [
+            "Trinidad",
+            "Riberalta",
+            "Guayaramerín"
+        ],
+
+        "Pando": [
+            "Cobija",
+            "Porvenir"
+        ]
+
+    };
+
+
+    document
+        .getElementById("departamento")
+        .addEventListener("change", e => {
+
+            const department =
+                e.target.value;
+
+            const municipality =
+                document.getElementById(
+                    "municipio"
+                );
+
+
+            municipality.innerHTML =
+                `<option value="">
+                    Selecciona municipio
+                 </option>`;
+
+
+            if (!municipalities[department]) {
+                return;
+            }
+
+
+            municipalities[department]
+                .forEach(city => {
+
+                    const option =
+                        document.createElement(
+                            "option"
+                        );
+
+                    option.value = city;
+
+                    option.textContent = city;
+
+                    municipality.appendChild(
+                        option
+                    );
+
+                });
+
+        });
+
+
+    /* =================================================
+       FECHA MÍNIMA
+    ================================================= */
+
+    const dateInput =
+        document.getElementById("fecha");
+
+    const today =
+        new Date().toISOString().split("T")[0];
+
+    dateInput.min = today;
+
+
+    /* =================================================
+       CHECKOUT
+    ================================================= */
+
+    document
+        .getElementById("checkoutBtn")
+        .addEventListener("click", () => {
+
+            if (!cart.length) {
+
+                notify(
+                    "Tu carrito está vacío",
+                    "fa-cart-shopping"
+                );
+
+                return;
+
+            }
+
+
+            closeModal("cartModal");
+
+            document
+                .getElementById("pedido")
+                .scrollIntoView({
+                    behavior: "smooth"
+                });
+
+
+            setTimeout(() => {
+
+                notify(
+                    "Completa tus datos para continuar",
+                    "fa-location-dot"
+                );
+
+            }, 700);
+
+        });
+
+
+    /* =================================================
+       PEDIDO WHATSAPP
+    ================================================= */
+
+    document
+        .getElementById("pedidoBtn")
+        .addEventListener("click", () => {
+
+            if (!cart.length) {
+
+                notify(
+                    "Agrega productos al carrito",
+                    "fa-cart-shopping"
+                );
+
+                return;
+
+            }
+
+
+            const cliente =
+                document
+                    .getElementById("cliente")
+                    .value.trim();
+
+            const telefono =
+                document
+                    .getElementById("telefono")
+                    .value.trim();
+
+            const departamento =
+                document
+                    .getElementById("departamento")
+                    .value;
+
+            const municipio =
+                document
+                    .getElementById("municipio")
+                    .value;
+
+            const direccion =
+                document
+                    .getElementById("direccion")
+                    .value.trim();
+
+            const referencia =
+                document
+                    .getElementById("referencia")
+                    .value.trim();
+
+            const fecha =
+                document
+                    .getElementById("fecha")
+                    .value;
+
+            const hora =
+                document
+                    .getElementById("hora")
+                    .value;
+
+
+            const payment =
+                document.querySelector(
+                    'input[name="payment"]:checked'
+                );
+
+
+            if (!cliente) {
+
+                notify(
+                    "Escribe tu nombre",
+                    "fa-user"
+                );
+
+                document
+                    .getElementById("cliente")
+                    .focus();
+
+                return;
+            }
+
+
+            if (!telefono) {
+
+                notify(
+                    "Escribe tu teléfono",
+                    "fa-phone"
+                );
+
+                return;
+            }
+
+
+            if (!departamento) {
+
+                notify(
+                    "Selecciona tu departamento",
+                    "fa-location-dot"
+                );
+
+                return;
+            }
+
+
+            if (!municipio) {
+
+                notify(
+                    "Selecciona tu municipio",
+                    "fa-location-dot"
+                );
+
+                return;
+            }
+
+
+            if (!direccion) {
+
+                notify(
+                    "Escribe tu dirección",
+                    "fa-house"
+                );
+
+                return;
+            }
+
+
+            if (!fecha) {
+
+                notify(
+                    "Selecciona la fecha de entrega",
+                    "fa-calendar"
+                );
+
+                return;
+            }
+
+
+            if (!hora) {
+
+                notify(
+                    "Selecciona el horario",
+                    "fa-clock"
+                );
+
+                return;
+            }
+
+
+            if (!payment) {
+
+                notify(
+                    "Selecciona un método de pago",
+                    "fa-credit-card"
+                );
+
+                return;
+            }
+
+
+            let message =
+                `🍰 *NUEVO PEDIDO - MAGIC DESSERTS*%0A%0A`;
+
+            message +=
+                `👤 *Cliente:* ${cliente}%0A`;
+
+            message +=
+                `📱 *Teléfono:* ${telefono}%0A`;
+
+            message +=
+                `📍 *Departamento:* ${departamento}%0A`;
+
+            message +=
+                `🏙️ *Municipio:* ${municipio}%0A`;
+
+            message +=
+                `🏠 *Dirección:* ${direccion}%0A`;
+
+            message +=
+                `📌 *Referencia:* ${referencia || "Sin referencia"}%0A`;
+
+            message +=
+                `📅 *Fecha:* ${fecha}%0A`;
+
+            message +=
+                `⏰ *Horario:* ${hora}%0A`;
+
+            message +=
+                `💳 *Pago:* ${payment.value}%0A%0A`;
+
+            message +=
+                `🛒 *PRODUCTOS:*%0A`;
+
+
+            cart.forEach(item => {
+
+                message +=
+                    `• ${item.name} x${item.quantity} — Bs. ${(item.price * item.quantity).toFixed(2)}%0A`;
+
+            });
+
+
+            const subtotal =
+                calculateSubtotal();
+
+            const discountAmount =
+                subtotal * discount;
+
+            const total =
+                calculateTotal();
+
+
+            message += `%0A`;
+
+            message +=
+                `💰 *Subtotal:* Bs. ${subtotal.toFixed(2)}%0A`;
+
+            message +=
+                `🎁 *Descuento:* Bs. ${discountAmount.toFixed(2)}%0A`;
+
+            message +=
+                `💵 *TOTAL:* Bs. ${total.toFixed(2)}%0A%0A`;
+
+            message +=
+                `✨ Gracias por elegir Magic Desserts. 💗`;
+
+
+            const whatsappNumber =
+                "59164891203";
+
+
+            const url =
+                `https://wa.me/${whatsappNumber}?text=${message}`;
+
+
+            window.open(
+                url,
+                "_blank"
+            );
+
+
+            notify(
+                "Pedido preparado para WhatsApp 📱",
+                "fa-whatsapp"
+            );
+
+        });
+
+
+    /* =================================================
+       OPINIONES
+    ================================================= */
+
+    document
+        .getElementById("addReview")
+        .addEventListener("click", () => {
+
+            const name =
+                document
+                    .getElementById("reviewName")
+                    .value.trim();
+
+            const stars =
+                document
+                    .getElementById("reviewStars")
+                    .value;
+
+            const text =
+                document
+                    .getElementById("reviewText")
+                    .value.trim();
+
+
+            if (!name || !text) {
+
+                notify(
+                    "Completa tu nombre y opinión",
+                    "fa-comment"
+                );
+
+                return;
+
+            }
+
+
+            const card =
+                document.createElement("article");
+
+            card.className = "review-card";
+
+
+            const initial =
+                name.charAt(0).toUpperCase();
+
+
+            const starsText =
+                "★".repeat(Number(stars)) +
+                "☆".repeat(5 - Number(stars));
+
+
+            card.innerHTML = `
+
+                <div class="review-stars">
+                    ${starsText}
+                </div>
+
+                <p>
+                    “${text}”
+                </p>
+
+                <div class="review-user">
+
+                    <div class="review-avatar">
+                        ${initial}
+                    </div>
+
+                    <div>
+                        <strong>
+                            ${name}
+                        </strong>
+
+                        <span>
+                            Cliente
+                        </span>
+                    </div>
+
+                </div>
+
+            `;
+
+
+            document
+                .getElementById("reviewsGrid")
+                .prepend(card);
+
+
+            document
+                .getElementById("reviewName")
+                .value = "";
+
+            document
+                .getElementById("reviewText")
+                .value = "";
+
+
+            notify(
+                "¡Gracias por tu opinión! ⭐",
+                "fa-star"
+            );
+
+        });
+
+
+    /* =================================================
+       GALERÍA
+    ================================================= */
+
+    document
+        .querySelectorAll(".gallery-open")
+        .forEach(button => {
+
+            button.addEventListener("click", e => {
+
+                e.stopPropagation();
+
+
+                const image =
+                    button
+                        .closest(".gallery-item")
+                        .querySelector("img");
+
+
+                document
+                    .getElementById("galleryModalImage")
+                    .src = image.src;
+
+
+                document
+                    .getElementById("galleryModal")
+                    .classList.add("show");
+
+            });
+
+        });
+
+
+    document
+        .getElementById("galleryModalClose")
+        .addEventListener("click", () => {
+
+            document
+                .getElementById("galleryModal")
+                .classList.remove("show");
+
+        });
+
+
+    document
+        .getElementById("galleryModal")
+        .addEventListener("click", e => {
+
+            if (
+                e.target.id ===
+                "galleryModal"
+            ) {
+
+                e.currentTarget
+                    .classList.remove("show");
+
+            }
+
+        });
+
+
+    /* =================================================
+       MENÚ MÓVIL
+    ================================================= */
+
+    document
+        .getElementById("menuBtn")
+        .addEventListener("click", () => {
+
+            document
+                .getElementById("navbar")
+                .classList.toggle("open");
+
+        });
+
+
+    document
+        .querySelectorAll(".nav-link")
+        .forEach(link => {
+
+            link.addEventListener("click", () => {
+
+                document
+                    .getElementById("navbar")
+                    .classList.remove("open");
+
+            });
+
+        });
+
+
+    /* =================================================
+       BOTÓN VOLVER ARRIBA
+    ================================================= */
+
+    const backTop =
+        document.getElementById("backTop");
+
+
+    window.addEventListener("scroll", () => {
+
+        if (window.scrollY > 500) {
+
+            backTop.classList.add("show");
+
+        } else {
+
+            backTop.classList.remove("show");
+
+        }
+
+    });
+
+
+    backTop.addEventListener("click", () => {
+
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        });
+
+    });
+
+
+    /* =================================================
+       NAV ACTIVO
+    ================================================= */
+
+    const sections =
+        document.querySelectorAll(
+            "section[id]"
+        );
+
+    window.addEventListener("scroll", () => {
+
+        let current = "";
+
+        sections.forEach(section => {
+
+            const sectionTop =
+                section.offsetTop - 150;
+
+            if (
+                window.scrollY >=
+                sectionTop
+            ) {
+
+                current =
+                    section.getAttribute("id");
+
+            }
+
+        });
+
+
+        document
+            .querySelectorAll(".nav-link")
+            .forEach(link => {
+
+                link.classList.remove("active");
+
+                if (
+                    link.getAttribute("href") ===
+                    `#${current}`
+                ) {
+
+                    link.classList.add("active");
+
+                }
+
+            });
+
+    });
+
+
+    /* =================================================
+       INICIALIZACIÓN
+    ================================================= */
+
+    renderProducts();
+
+    renderCart();
+
+    updateCounters();
+
+    updateCustomizer();
+
+});
+</script>
